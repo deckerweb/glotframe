@@ -1,0 +1,7 @@
+.github export-ignore
+assets/marketing export-ignore
+assets/css export-ignore
+docs/images export-ignore
+docs/content.json export-ignore
+_config.yml export-ignore
+index.md export-ignore

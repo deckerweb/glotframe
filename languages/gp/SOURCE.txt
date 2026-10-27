@@ -1,0 +1,8 @@
+GlotPress German interface translations, de_DE and de_DE_formal.
+Source: official WordPress.org translation packages for GlotPress4.1.0, retrieved26 October2026.
+https://downloads.wordpress.org/translation/plugin/glotpress/4.1.0/de_DE.zip
+https://downloads.wordpress.org/translation/plugin/glotpress/4.1.0/de_DE_formal.zip
+Copyright: GlotPress contributors and the WordPress translation community.
+License: GPLv2 or later, same as GlotPress.
+The term Project actions was standardized as Projektaktionen.
+PHP catalogs442 entries each; four official JavaScript catalogs each. These resources are applied only to the GlotPress interface.

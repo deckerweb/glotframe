@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "copy": {
+    "de": {
+      "about": "GlotFrame macht GlotPress zu einem individuell gestalteten, übersichtlichen Übersetzungsportal.\n\nMit Headern und Footern aus WordPress-Blöcken, abgestimmten Designs, besseren Projektansichten und hilfreichen Statistiken entsteht eine Oberfläche, in der sich Übersetzer schnell zurechtfinden. Die Einrichtung gelingt direkt in WordPress – ohne eigene PHP-Anpassungen.\n\nEin deckerweb Tool für alle, die GlotPress einfacher gestalten und komfortabler nutzen möchten.",
+      "highlights": [
+        [
+          "Header und Footer mit WordPress-Blöcken",
+          "Gestalte Header, Footer und Hinweisbereiche direkt im Blockeditor. Sieben Layout-Vorlagen und fünf dynamische GlotPress-Blöcke erleichtern den Einstieg."
+        ],
+        [
+          "Dein Übersetzungsportal, dein Design",
+          "Boxed oder volle Breite, acht Farbvorlagen, eigene Farben und Hintergrundbilder: Gib GlotPress einen passenden Auftritt – mit abgestimmten Formularen, Buttons und übersichtlichen Tabellen."
+        ],
+        [
+          "Viele Projekte? Schnell gefunden.",
+          "Durchsuche Stammprojekte und Unterprojekte und wechsle zwischen Listen- und Rasteransicht. Auch die Auswahl übergeordneter Projekte wird bei langen Listen deutlich komfortabler."
+        ],
+        [
+          "Kürzere Wege im Übersetzungsalltag",
+          "Eine anpassbare Toolbar führt direkt zu Projekten und Unterprojekten. Berechtigte Benutzer erreichen die Funktionen zum Anlegen neuer Projekte bequem aus der Navigation."
+        ],
+        [
+          "GlotPress als Startseite",
+          "Mache deine Website bei Bedarf zum Übersetzungsportal. Verwende GlotPress als Startseite und passe seinen URL-Pfad an."
+        ],
+        [
+          "Fortschritt sichtbar machen",
+          "Kennzahlen, Grafiken und Projektvergleiche zeigen den aktuellen Übersetzungsstand. Betreiber erhalten eine Gesamtübersicht; angemeldete Übersetzer können eigene Beiträge und ausgewählte Projektgruppen betrachten."
+        ],
+        [
+          "Deutsch – mit Du oder Sie",
+          "Wähle die gewünschte Anrede für die deutsche GlotPress-Oberfläche. Die Sprache deiner WordPress-Verwaltung und die eigentlichen Projektübersetzungen bleiben davon unabhängig."
+        ],
+        [
+          "Komfortabel verwalten",
+          "Dupliziere Layouts, behalte ungespeicherte Änderungen im Blick und nutze Site Health sowie passende Befehle in der WordPress-Befehlspalette. In Multisite verwaltet jede Website ihre eigenen Einstellungen und Layouts."
+        ]
+      ],
+      "story": "Die Wurzeln von GlotFrame reichen bis 2017 zurück. Damals entstanden aus der praktischen Arbeit mit GlotPress zahlreiche Code-Snippets und eigene Templates: für mehr Gestaltungsmöglichkeiten, bessere Übersicht und angenehmere Arbeitsabläufe.\n\nWas im Alltag half, war aufwendig zu pflegen. Die Anpassungen waren über viele einzelne Bausteine verteilt – und mit jedem GlotPress-Update musste geprüft werden, was weiterhin funktionierte und wo nachgebessert werden musste.\n\nGlotFrame bringt diese Grundideen heute in einem vollständig integrierten WordPress-Plugin zusammen und entwickelt sie weiter. Aus individuellen Anpassungen wird ein Werkzeug, mit dem auch Menschen ohne Programmierkenntnisse, Site Builder und Übersetzungsredaktionen schnell ein schönes und gut bedienbares Übersetzungsportal aufbauen können.\n\nGlotPress liefert die Übersetzungsverwaltung. GlotFrame ergänzt, was für einen eigenen Auftritt und einen komfortablen Alltag häufig noch fehlt: Gestaltung, Orientierung und viele durchdachte Details – vereint in einem Paket."
+    },
+    "en": {
+      "about": "GlotFrame turns GlotPress into a translation portal with its own identity and a clearer interface.\n\nWordPress block headers and footers, coordinated designs, improved project views and useful statistics help translators find their way. Set it up directly in WordPress without writing custom PHP.\n\nA deckerweb tool for anyone who wants to shape GlotPress more easily and use it more comfortably.",
+      "highlights": [
+        [
+          "Build headers and footers with WordPress blocks",
+          "Design headers, footers and notice areas in the block editor. Seven starting patterns and five dynamic GlotPress blocks help you build your own layouts."
+        ],
+        [
+          "A design that fits your identity",
+          "Choose boxed or full-width layouts, eight color presets, custom colors and background images. Give your workspace coordinated forms, buttons and readable tables."
+        ],
+        [
+          "Keep large project collections organized",
+          "Search root projects and subprojects and switch between list and grid views. A searchable parent-project selector makes long project lists easier to navigate."
+        ],
+        [
+          "Fewer steps in everyday translation work",
+          "A configurable toolbar links to projects and subprojects. Authorized users can reach the native forms for new projects and subprojects directly from the navigation."
+        ],
+        [
+          "Use GlotPress as your translation portal",
+          "Optionally use GlotPress as the homepage and choose its URL path. Headers, footers and additional content give your portal its own identity."
+        ],
+        [
+          "See translation progress at a glance",
+          "Metrics, charts and project comparisons show the current state. Operators get an overview, while signed-in translators can review their own contributions and selected project groups."
+        ],
+        [
+          "German with informal or formal address",
+          "Choose informal or formal German for the GlotPress interface. The WordPress administration language and actual project translations remain independent."
+        ],
+        [
+          "Convenient administration, including Multisite",
+          "Duplicate layouts, save changes conveniently and use Site Health and the native Command Palette. Each Multisite website keeps its own settings and layouts."
+        ]
+      ],
+      "story": "GlotFrame’s roots go back to 2017. Practical work with GlotPress led to a collection of code snippets and custom templates: more design options, clearer navigation and a more comfortable translation workflow.\n\nUseful as they were, those individual pieces took considerable effort to maintain. Each GlotPress update meant checking what still worked and what needed adjusting.\n\nToday, GlotFrame brings those original ideas together in a fully integrated WordPress plugin and takes them further. What once required individual code changes is now a tool that helps people without programming experience, site builders and translation editors quickly create a beautiful, easy-to-use translation portal.\n\nGlotPress provides translation management. GlotFrame adds what is often still needed for a distinctive portal and a comfortable working day: design, orientation and many thoughtful details, all in one package."
+    }
+  },
+  "chapters": {
+    "Getting-started": [
+      "Erste-Schritte",
+      "Getting started",
+      "Erste Schritte",
+      "1. Check **WordPress 6.4+**, **PHP 8.3+** and **GlotPress 4.x**. Choose a readable permalink structure in **Settings → Permalinks**; Plain is not supported by GlotPress.\n2. Install the GlotFrame ZIP through **Plugins → Add Plugin → Upload Plugin** and activate it. Use the packaged ZIP supplied with a release, rather than GitHub’s automatic source archive.\n3. Open **GlotFrame → Settings**. The three jump links lead to Frontend & Layout, Admin & Toolbar, and Data & System.\n4. Beside the content assignments, choose **Create block layout**. Add blocks, give the layout a title and publish it. Create separate layouts for the header and footer if needed.\n5. Select the published layouts under Header, footer and content. Choose a preset, width and spacing. Enable GlotFrame and save.\n6. Use **View GlotPress** and check the project list, an individual language and the translation editor, including on a small screen.\n\nGlotFrame can be installed and activated without GlotPress. You can prepare and save settings and layouts. Dependent frontend functions pause, an admin notice explains why, and stored data is preserved. They resume automatically when GlotPress 4.x and readable permalinks are available. There is no activation redirect out of the administration area.",
+      "1. Prüfe **WordPress 6.4+**, **PHP 8.3+** und **GlotPress 4.x**. Wähle unter **Einstellungen → Permalinks** eine lesbare Struktur; „Einfach“ wird von GlotPress nicht unterstützt.\n2. Installiere das GlotFrame-ZIP über **Plugins → Plugin hinzufügen → Plugin hochladen** und aktiviere es. Verwende das bereitgestellte Plugin-ZIP eines Releases statt GitHubs automatisch erzeugtem Quellarchiv.\n3. Öffne **GlotFrame → Einstellungen**. Die drei Sprunglinks führen zu Frontend & Layout, Admin & Toolbar sowie Daten & System.\n4. Wähle bei den Inhaltszuordnungen **Block-Layout erstellen**. Füge Blöcke hinzu, vergib einen Titel und veröffentliche das Layout. Erstelle bei Bedarf getrennte Layouts für Header und Footer.\n5. Wähle die veröffentlichten Layouts unter Header, Footer und Inhalte aus. Bestimme Farbvorlage, Breite und Abstände. Aktiviere GlotFrame und speichere.\n6. Öffne **GlotPress ansehen** und prüfe Projektliste, Sprachansicht und Übersetzungseditor, auch auf einem kleinen Bildschirm.\n\nGlotFrame lässt sich ohne GlotPress installieren und aktivieren. Einstellungen und Layouts kannst du vorbereiten und speichern. Abhängige Frontend-Funktionen pausieren mit einem verständlichen Admin-Hinweis; vorhandene Daten bleiben erhalten. Sobald GlotPress 4.x und lesbare Permalinks verfügbar sind, funktionieren sie automatisch wieder. Es gibt keine Aktivierungsweiterleitung aus dem Admin.",
+      [
+        "settings",
+        "content-assignments",
+        "projects-grid"
+      ]
+    ],
+    "Layouts-and-design": [
+      "Layouts-und-Design",
+      "Layouts and design",
+      "Layouts und Design",
+      "## Build and assign layouts\n\nCreate layouts in the WordPress block editor. The four regions are header, content above the workspace, content below the workspace, and footer. Native GlotPress navigation remains available. Only published layouts without password protection are displayed. Draft, private and trashed layouts stay hidden.\n\nThe layout overview’s **Used as** column shows all assignments. **Duplicate as draft** creates an independent copy without changing the original or assigning the copy. **Edit layout** opens the selected layout directly. Save assignment changes on the settings page; publish content changes in the editor.\n\nAn unavailable assignment is labeled clearly. Restore publication before saving, choose a replacement, or save to clear it. Existing layouts are never replaced by patterns automatically.\n\n## Patterns and dynamic blocks\n\nOpen the block inserter: **GlotFrame layouts** contains seven starting patterns; **GlotFrame** contains Project overview, Current project, Project actions, Translation progress and Project group statistics. Choose a project in the block settings for context-dependent previews. Project actions respect native permissions. Group statistics show the selected project and its descendants.\n\n## Color, width and spacing\n\nChoose boxed output for a visible outer background or full width for more horizontal space. Content width controls ordinary pages; the optional wider translation editor uses its separate width. Inner padding, corner radius, system font, text size and table density can be adjusted.\n\nEight presets are available: White, Night owl · Charcoal, Midnight blue, Sunlit sand, Warm terracotta, Harbor blue, Muted Bordeaux and Soft sage. Selecting a preset fills its color controls; adjust them before saving. It does not replace layouts, widths or background images. Use the WordPress color picker and Media Library for local backgrounds. Check text, links, controls and keyboard focus after customizing colors.\n\n## Page builders\n\nCreate and edit GlotFrame layouts with the WordPress block editor. Layout content created with Bricks, Elementor or other page builders is not supported. A builder edit button does not imply that its content can be displayed by GlotFrame. The active theme is not required to provide the portal header or footer.",
+      "## Layouts erstellen und zuordnen\n\nErstelle Layouts im WordPress-Blockeditor. Die vier Bereiche sind Header, Inhalte oberhalb des Übersetzungsbereichs, Inhalte darunter und Footer. Die native GlotPress-Navigation bleibt verfügbar. Angezeigt werden nur veröffentlichte Layouts ohne Passwortschutz. Entwürfe, private Layouts und Inhalte im Papierkorb bleiben verborgen.\n\nDie Spalte **Verwendet als** zeigt alle Zuordnungen. **Als Entwurf duplizieren** erzeugt eine unabhängige Kopie, ohne das Original zu verändern oder die Kopie zuzuordnen. **Layout bearbeiten** öffnet die aktuelle Auswahl direkt. Speichere Zuordnungen auf der Einstellungsseite; Inhaltsänderungen veröffentlichst du im Editor.\n\nNicht verfügbare Zuordnungen werden gekennzeichnet. Stelle die Veröffentlichung vor dem Speichern wieder her, wähle Ersatz oder speichere zum Entfernen der ungültigen Zuordnung. Patterns ersetzen vorhandene Layouts nie automatisch.\n\n## Vorlagen und dynamische Blöcke\n\nÖffne die Blockauswahl: Unter **GlotFrame-Layouts** findest du sieben Startvorlagen; unter **GlotFrame** die fünf Blöcke Projektübersicht, Aktuelles Projekt, Projektaktionen, Übersetzungsfortschritt und Projektgruppenstatistik. Wähle für kontextabhängige Vorschauen ein Projekt in den Blockeinstellungen. Projektaktionen beachten die nativen Berechtigungen. Die Gruppenstatistik berücksichtigt das gewählte Projekt und seine Unterprojekte.\n\n## Farben, Breite und Abstände\n\nBei Boxed bleibt außen Hintergrund sichtbar; volle Breite bietet mehr horizontalen Platz. Die Inhaltsbreite gilt für gewöhnliche Seiten. Der optional breitere Übersetzungseditor verwendet seine eigene Breite. Innenabstand, Eckenradius, Systemschrift, Schriftgröße und Tabellendichte sind einstellbar.\n\nAcht Farbvorlagen stehen bereit: Weiß, Nachteule · Anthrazit, Nachtblau, Sonniger Sand, Warme Terrakotta, Hafenblau, Mattes Bordeaux und Sanftes Salbeigrün. Eine Auswahl füllt die Farbfelder; vor dem Speichern kannst du sie anpassen. Layouts, Breiten und Hintergrundbilder werden dabei nicht ersetzt. Nutze den WordPress-Farbwähler und die Mediathek für lokale Hintergründe. Prüfe nach eigenen Farbanpassungen Texte, Links, Bedienelemente und Tastaturfokus.\n\n## Page Builder\n\nErstelle und bearbeite GlotFrame-Layouts mit dem WordPress-Blockeditor. Mit Bricks, Elementor oder anderen Page Buildern erstellte Layout-Inhalte werden nicht unterstützt. Ein vorhandener Builder-Bearbeitungsbutton bedeutet nicht, dass dessen Inhalte in GlotFrame ausgegeben werden können. Das aktive Theme muss keinen Portal-Header oder -Footer bereitstellen.",
+      [
+        "layouts",
+        "block-editor",
+        "content-assignments",
+        "layout-settings",
+        "color-presets",
+        "preset-midnight",
+        "preset-harbor",
+        "preset-bordeaux",
+        "preset-sage",
+        "mobile-projects"
+      ]
+    ],
+    "Projects-and-translation": [
+      "Projekte-und-Uebersetzung",
+      "Projects and translation",
+      "Projekte und Übersetzung",
+      "## Find projects\n\nRoot projects and subprojects have a search field and List/Grid switch. Search filters the displayed collection; it is not a search across translation strings. Your view choice is retained in this browser when local storage is available. Project descriptions and edit links remain attached to their project.\n\nThe native parent-project selector is searchable and shows project paths. This helps distinguish repeated names in different branches. If JavaScript is unavailable, native GlotPress controls remain usable.\n\n## Actions and editor\n\nAuthorized users can reach New project from the workspace navigation and the toolbar. The current project also offers a subproject shortcut. These links open native GlotPress forms, retaining its permission and validation rules. Project actions expand below their toggle and do not reserve a side column.\n\nTranslation tables use alternating rows and hover feedback, a compact Prio heading, defined checkbox widths, comfortable cell spacing and separated navigation, legend and export controls. Details and Cancel retain the native editor workflow. Export formats and translation data remain managed by GlotPress.\n\n## Languages and glossaries\n\nThe language overview has aligned columns and its native language filter. Language-specific project tables distinguish project information, translation sets and counts. Glossaries show terms, parts of speech, translations and comments with clearer row spacing. GlotFrame does not change glossary permissions or stored entries.\n\n## German informal and formal interface\n\nChoose **GlotPress interface language** in the settings: inherit WordPress, German informal or German formal. Bundled official GlotPress 4.1.0 catalogs cover PHP and JavaScript. The choice affects the GlotPress interface only, not WordPress administration or project translations. Unknown strings from extensions or other GlotPress versions retain native fallback behavior.",
+      "## Projekte finden\n\nStammprojekte und Unterprojekte erhalten Suche und Liste/Raster-Umschaltung. Die Suche filtert die angezeigte Sammlung; sie durchsucht keine Übersetzungsstrings. Die Ansichtspräferenz bleibt bei verfügbarem lokalem Speicher in diesem Browser erhalten. Beschreibungen und Bearbeitungslinks gehören weiterhin zum jeweiligen Projekt.\n\nDie native Auswahl übergeordneter Projekte ist durchsuchbar und zeigt Projektpfade. So lassen sich gleichnamige Projekte in verschiedenen Zweigen unterscheiden. Ohne JavaScript bleiben die nativen GlotPress-Bedienelemente nutzbar.\n\n## Aktionen und Editor\n\nBerechtigte Benutzer erreichen Neues Projekt in der Navigation des Übersetzungsbereichs und der Toolbar. Beim aktuellen Projekt gibt es außerdem einen Unterprojekt-Link. Geöffnet werden die nativen GlotPress-Formulare mit ihren Berechtigungen und Eingabeprüfungen. Projektaktionen klappen unterhalb des Schalters auf und reservieren keine seitliche Spalte.\n\nÜbersetzungstabellen erhalten wechselnde Zeilenhintergründe, Hover-Rückmeldung, die kompakte Prio-Überschrift, feste Checkboxbreiten, angenehmere Innenabstände und getrennte Navigation, Legende und Exportfunktionen. Details und Abbrechen verwenden den nativen Editorablauf. Exportformate und Übersetzungsdaten bleiben unter Kontrolle von GlotPress.\n\n## Sprachen und Glossare\n\nDie Sprachübersicht hat ausgerichtete Spalten und den nativen Sprachfilter. Sprachbezogene Projekttabellen trennen Projektinformationen, Übersetzungssätze und Zahlen. Glossare zeigen Begriffe, Wortarten, Übersetzungen und Kommentare mit klareren Zeilenabständen. Berechtigungen und gespeicherte Glossareinträge werden nicht verändert.\n\n## Deutsche Oberfläche mit Du oder Sie\n\nWähle unter **GlotPress-Oberflächensprache**: WordPress-Sprache übernehmen, Deutsch mit Du oder Deutsch mit Sie. Mitgelieferte offizielle GlotPress-4.1.0-Kataloge decken PHP und JavaScript ab. Die Auswahl betrifft nur GlotPress, weder den WordPress-Admin noch Projektübersetzungen. Unbekannte Texte von Erweiterungen oder anderen GlotPress-Versionen verwenden den nativen Fallback.",
+      [
+        "projects-list",
+        "projects-grid",
+        "subprojects",
+        "project-select",
+        "translations",
+        "translation-editor",
+        "languages",
+        "language-projects",
+        "glossary"
+      ]
+    ],
+    "Portal-and-toolbar": [
+      "Portal-und-Toolbar",
+      "Portal and toolbar",
+      "Portal und Toolbar",
+      "## Portal homepage and URL path\n\nEnable **Use GlotPress as the homepage** if the website primarily serves translation work. It temporarily redirects eligible homepage GET/HEAD requests to GlotPress. WordPress administration and other pages remain reachable. Existing Reading settings are preserved and apply again when the option or plugin is disabled. The settings page and dashboard identify the active portal.\n\nThe custom URL path accepts one segment, such as translate. Leave it empty to keep the current GlotPress default. Reserved paths and known content conflicts are rejected. Links to an old custom path are not redirected automatically: update menus and bookmarks after changing it.\n\n## Toolbar\n\nThe GlotPress entry is enabled by default for signed-in users with a visible WordPress toolbar. Set its label and icon, show root projects, optionally include subprojects and choose a depth from one to six levels. Sixteen SVG motifs are available, with the WordPress symbol as fallback.\n\nChoose the standard position, first or last on the left, the right group, or before/after an existing entry. Select a reference that is actually present. If that reference is missing on another page, GlotFrame uses its standard placement. Position and label are website settings, not personal preferences. The final admin submenu opens GlotPress in a new tab.",
+      "## Portal-Startseite und URL-Pfad\n\nAktiviere **GlotPress als Startseite verwenden**, wenn die Website vor allem Übersetzungen dient. Geeignete GET-/HEAD-Aufrufe der Startseite werden vorübergehend zu GlotPress weitergeleitet. WordPress-Admin und andere Seiten bleiben erreichbar. Die Einstellungen unter Lesen bleiben erhalten und gelten nach Abschalten der Option oder des Plugins wieder. Einstellungsseite und Dashboard kennzeichnen das aktive Portal.\n\nDer individuelle URL-Pfad akzeptiert ein Segment, zum Beispiel translate. Leer bleibt der aktuelle GlotPress-Standard erhalten. Reservierte Pfade und bekannte Inhaltskonflikte werden abgewiesen. Alte individuelle Pfade werden nicht automatisch weitergeleitet: Passe Menüs und Lesezeichen nach einer Änderung an.\n\n## Toolbar\n\nDer GlotPress-Eintrag ist standardmäßig für angemeldete Benutzer mit sichtbarer WordPress-Toolbar aktiviert. Bestimme Beschriftung und Icon, zeige Stammprojekte, ergänze optional Unterprojekte und wähle eine Tiefe von eins bis sechs Ebenen. Sechzehn SVG-Motive stehen bereit, mit dem WordPress-Symbol als Fallback.\n\nWähle Standardposition, Anfang oder Ende links, rechte Gruppe oder vor/nach einem vorhandenen Eintrag. Wähle ein tatsächlich vorhandenes Bezugsziel. Fehlt es auf einer anderen Seite, nutzt GlotFrame die Standardposition. Position und Name sind Website-Einstellungen, keine persönlichen Präferenzen. Das letzte Admin-Untermenü öffnet GlotPress in einem neuen Tab.",
+      [
+        "toolbar-settings"
+      ]
+    ],
+    "Statistics": [
+      "Statistik",
+      "Statistics",
+      "Statistik",
+      "Open **GlotFrame → Statistics** for the operator overview. Signed-in translators reach frontend statistics through workspace navigation or the toolbar. Choose your own contributions or project groups, then narrow projects, language and translation set. A selected project includes its descendants.\n\nCards, a completion graphic and a project-language comparison matrix show the current state. Overall completion is weighted by source strings per translation set, not the average of project percentages. One source string in three language sets creates three translation tasks. Empty projects do not produce a misleading 100%.\n\nWaiting proposals and warnings can overlap other counts; they are not extra slices of completion. Public active strings are the default. Including hidden strings requires native GlotPress authorization.\n\nPersonal contributions count retained records attributed to the signed-in user. Their date filter applies to the stored submission date, not overall completion. Imports, overwritten or deleted records affect what the figures can represent. This is not a complete activity history, productivity score or quality ranking.\n\nNo history table, background tracking or analytics service is created. The calculation time is shown. The Project group statistics block places a compact summary of the selected group in a layout.",
+      "Öffne **GlotFrame → Statistik** für die Betreiberübersicht. Angemeldete Übersetzer erreichen die Frontend-Statistik über Navigation oder Toolbar. Wähle eigene Beiträge oder Projektgruppen und grenze Projekte, Sprache und Übersetzungssatz ein. Ein gewähltes Projekt umfasst seine Unterprojekte.\n\nKarten, Fortschrittsgrafik und Projekt-Sprach-Matrix zeigen den aktuellen Stand. Die Gesamtquote wird anhand der Ausgangsstrings pro Übersetzungssatz gewichtet, nicht aus Projektprozenten gemittelt. Ein Ausgangsstring in drei Sprachsätzen ergibt drei Übersetzungsaufgaben. Leere Projekte erzeugen keine irreführenden 100 %.\n\nWartende Vorschläge und Warnungen können andere Zahlen überlappen; sie sind keine zusätzlichen Tortenstücke. Standard sind aktive öffentliche Strings. Ausgeblendete Strings erfordern native GlotPress-Berechtigung.\n\nPersönliche Beiträge zählen noch vorhandene, dem angemeldeten Benutzer zugeordnete Datensätze. Ihr Datumsfilter betrifft das gespeicherte Einreichungsdatum, nicht die Gesamtquote. Importe, überschriebene oder gelöschte Datensätze beeinflussen die Aussagekraft. Dies ist kein vollständiger Aktivitätsverlauf, Produktivitätswert oder Qualitätsranking.\n\nEs entstehen keine Verlaufstabelle, Hintergrundverfolgung oder Analyseverbindung. Der Berechnungszeitpunkt wird angezeigt. Der Block Projektgruppenstatistik bringt eine kompakte Zusammenfassung der gewählten Gruppe in ein Layout.",
+      [
+        "statistics-admin",
+        "statistics-frontend"
+      ]
+    ],
+    "Administration-and-data": [
+      "Verwaltung-und-Daten",
+      "Administration and data",
+      "Verwaltung und Daten",
+      "## Saving and diagnostics\n\nThe fixed save bar shows unsaved changes beside the button and a spaced dot inside it. Returning all values to their original state clears the indicator. Use Ctrl+S on Windows/Linux or Cmd+S on macOS on the settings page; native validation still applies. The block editor retains its own save workflow. Without JavaScript, the standard submit button remains available.\n\nUnder **Tools → Site Health → Info**, GlotFrame lists version, runtime availability, layout assignments and component status without layout contents, project names, paths or credentials. Its status check identifies a safe pause and configuration issues without external requests.\n\nSearch for GlotFrame in the existing WordPress Command Palette to create a block layout or edit a valid assigned header/footer. Commands are for authorized website administrators in native supported contexts. Older WordPress versions may offer the palette only in the block editor. No second palette or additional shortcut is installed.\n\n## Permissions and Multisite\n\nWebsite administrators with manage_options configure GlotFrame and edit layouts. Translation and project actions retain native GlotPress permissions. Signing in does not grant project management rights.\n\nNetwork activation makes GlotFrame available to websites, but settings and layouts remain per website. There is no network-wide design preset. Newly created websites receive defaults rather than another website’s layouts.\n\n## Privacy, updates and removal\n\nGlotFrame uses local assets and system fonts and adds no telemetry. Its updater contacts GitHub during WordPress update checks, sharing ordinary connection data such as the IP address. The optional deckerweb Library online catalog starts disabled. Other GlotPress or WordPress services retain their own behavior.\n\nDeactivation preserves data. Deletion preserves settings and layouts by default; temporary plugin caches are cleaned. The optional delete setting removes this website’s GlotFrame settings, layouts and revisions. Network deletion evaluates each website’s choice. It never removes GlotPress projects or translations. Shared Library cleanup has its own last-host policy and retains data needed by other installed hosts.",
+      "## Speichern und Diagnose\n\nDie fixe Speicherleiste zeigt ungespeicherte Änderungen neben dem Button und einen abgesetzten Punkt darin. Werden alle Werte zurückgesetzt, verschwindet der Änderungsstatus. Auf der Einstellungsseite speichert Strg+S unter Windows/Linux beziehungsweise Cmd+S unter macOS mit nativer Eingabeprüfung. Der Blockeditor behält seinen eigenen Speicherablauf. Ohne JavaScript bleibt der normale Speichern-Button nutzbar.\n\nUnter **Werkzeuge → Website-Zustand → Bericht** zeigt GlotFrame Version, Verfügbarkeit, Layoutzuordnungen und Komponentenstatus ohne Layoutinhalte, Projektnamen, Pfade oder Zugangsdaten. Der Statuscheck erkennt sichere Pause und Konfigurationsprobleme ohne externe Abfragen.\n\nSuche in der vorhandenen WordPress-Befehlspalette nach GlotFrame, um ein Block-Layout anzulegen oder gültig zugewiesenen Header/Footer zu bearbeiten. Die Befehle gelten für berechtigte Website-Administratoren in nativ unterstützten Kontexten. Ältere WordPress-Versionen bieten die Palette gegebenenfalls nur im Blockeditor. Es gibt keine zweite Palette und kein zusätzliches Tastenkürzel.\n\n## Berechtigungen und Multisite\n\nWebsite-Administratoren mit manage_options richten GlotFrame ein und bearbeiten Layouts. Übersetzungs- und Projektaktionen behalten die nativen GlotPress-Rechte. Anmelden allein gewährt keine Projektverwaltung.\n\nBei Netzwerkaktivierung steht GlotFrame den Websites zur Verfügung, Einstellungen und Layouts bleiben aber pro Website. Es gibt keine netzwerkweite Designvorgabe. Neue Websites erhalten Standardwerte statt fremder Layouts.\n\n## Datenschutz, Updates und Entfernen\n\nGlotFrame verwendet lokale Assets und Systemschriften und ergänzt keine Telemetrie. Der Updater fragt GitHub im WordPress-Updatezyklus ab und übermittelt gewöhnliche Verbindungsdaten wie die IP-Adresse. Der optionale Onlinekatalog der deckerweb Library ist zunächst ausgeschaltet. Andere Dienste von GlotPress oder WordPress behalten ihr eigenes Verhalten.\n\nDeaktivieren erhält Daten. Löschen erhält Einstellungen und Layouts standardmäßig; temporäre Plugin-Caches werden bereinigt. Die optionale Löschfunktion entfernt GlotFrame-Einstellungen, Layouts und Revisionen dieser Website. Netzwerklöschung berücksichtigt die Auswahl jeder Website. GlotPress-Projekte und Übersetzungen werden nie entfernt. Das gemeinsame Library-Cleanup folgt seiner eigenen Letzt-Host-Regel und erhält Daten anderer installierter Hosts.",
+      [
+        "data-settings",
+        "site-health"
+      ]
+    ]
+  },
+  "history": {
+    "en": {
+      "1.0.0": {
+        "date": "2026-10-27",
+        "changes": {
+          "New:": "Initial release: block headers, footers and notice areas; seven layout patterns and five dynamic GlotPress blocks; boxed and full-width layouts with eight color presets, custom colors and backgrounds.",
+          "Improved:": "Searchable project lists and grids, searchable parent-project selection, clearer translation and glossary tables, configurable toolbar navigation and placement, and optional portal homepage and URL path.",
+          "Misc:": "Includes German informal and formal interface translations, current operator and personal statistics, layout management shortcuts, Site Health information and contextual WordPress Command Palette actions. Requires WordPress 6.4, PHP 8.3 and active GlotPress 4.x for workspace features; settings and layouts remain available when GlotPress is absent."
+        }
+      }
+    },
+    "de": {
+      "1.0.0": {
+        "date": "2026-10-27",
+        "changes": {
+          "Neu:": "Erstveröffentlichung: Header, Footer und Hinweise mit WordPress-Blöcken; sieben Layout-Vorlagen und fünf dynamische GlotPress-Blöcke; Boxed- und Full-Width-Layouts mit acht Farbvorlagen, eigenen Farben und Hintergründen.",
+          "Verbessert:": "Durchsuchbare Projektlisten und Raster, durchsuchbare Auswahl übergeordneter Projekte, übersichtlichere Übersetzungs- und Glossartabellen, anpassbare Toolbar mit Positionswahl sowie optionale Portal-Startseite und eigener URL-Pfad.",
+          "Sonstiges:": "Enthält deutsche Du- und Sie-Oberflächen, aktuelle Betreiber- und persönliche Statistiken, Layout-Verwaltungshilfen, Website-Zustandsdaten und passende Aktionen in der WordPress-Befehlspalette. Erfordert WordPress 6.4, PHP 8.3 und aktives GlotPress 4.x für den Übersetzungsbereich; Einstellungen und Layouts bleiben ohne GlotPress verfügbar."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+#toplevel_page_glotframe .wp-submenu li:last-child{border-top:1px solid #ffffff26;margin-top:6px;padding-top:6px}
+#wpadminbar #wp-admin-bar-glotframe-admin-group{border-top:1px solid #ffffff24;margin-top:6px;padding-top:6px}
+
+@media(max-width:782px){#wpadminbar .quicklinks #wp-admin-bar-glotframe-gp{display:block}#wpadminbar #wp-admin-bar-glotframe-gp>.ab-item{width:46px;padding-inline:0;justify-content:center}#wpadminbar #wp-admin-bar-glotframe-gp>.ab-item>.ab-label{display:none}}
+@media(max-width:782px){#wpadminbar #wp-admin-bar-glotframe-gp>.ab-item>.ab-icon:before{font-size:20px}}

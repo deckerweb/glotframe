@@ -1,0 +1,135 @@
+body.glotframe{margin:0;background:var(--gf-background);background-size:cover;background-position:center;background-attachment:fixed;color:var(--gf-text);font-family:var(--gf-font);font-size:var(--gf-font-size);line-height:1.6;--gp-color-primary:var(--gf-accent);--gp-color-primary-500:var(--gf-accent);--gp-color-primary-600:var(--gf-accent);--gp-color-accent-fg:var(--gf-accent);--gp-color-accent-emphasis:var(--gf-accent);--gp-color-btn-text:var(--gf-accent);--gp-color-btn-border:var(--gf-accent);--gp-color-btn-hover-text:var(--gf-accent);--gp-color-btn-hover-border:var(--gf-accent);--gp-color-btn-primary-bg:var(--gf-accent);--gp-color-btn-primary-border:var(--gf-accent);--gp-color-btn-primary-hover-bg:var(--gf-accent);--gp-color-btn-primary-hover-border:var(--gf-accent);--gp-color-border-default:var(--gf-border);--gp-color-fg-default:var(--gf-text);--gp-color-canvas-default:var(--gf-surface)}
+.glotframe .glotframe-frame{box-sizing:border-box;width:calc(100% - 32px);max-width:var(--gf-width);margin:32px auto;background:var(--gf-surface);border:1px solid var(--gf-border);border-radius:var(--gf-radius);box-shadow:0 12px 40px #17212b0d;overflow-wrap:anywhere}
+.glotframe.glotframe--wide .glotframe-frame{max-width:max(var(--gf-width),var(--gf-work-width))}
+.glotframe.glotframe--full .glotframe-frame{width:100%;max-width:none;margin:0;border:0;border-radius:0;min-height:100vh}
+.glotframe .glotframe-main,.glotframe .glotframe-region{box-sizing:border-box;margin:0;padding:var(--gf-padding)}
+.glotframe .glotframe-main{min-height:35vh;max-width:none}
+.glotframe .glotframe-navigation{display:flex;flex-wrap:wrap;align-items:center;gap:16px;padding:16px var(--gf-padding);border-block:1px solid var(--gf-border);font-size:.95em}
+.glotframe .glotframe-navigation div{display:flex;gap:16px;flex-wrap:wrap}
+.glotframe .glotframe-home{font-weight:700}
+.glotframe .glotframe-account{margin-inline-start:auto}
+.glotframe .glotframe-navigation a,.glotframe .glotframe-footer a{color:var(--gf-accent);text-underline-offset:3px}
+.glotframe .glotframe-footer{border-top:1px solid var(--gf-border);font-size:.9em}
+.glotframe .glotframe-footer p{margin:.4em 0}
+.glotframe .glotframe-region :first-child{margin-block-start:0}
+.glotframe .glotframe-region :last-child{margin-block-end:0}
+.glotframe .glotframe-region img{max-width:100%;height:auto}
+.glotframe :focus-visible{outline:3px solid var(--gf-accent);outline-offset:3px}
+.glotframe .glotframe-main:focus{outline:none}
+.glotframe .glotframe-skip{position:fixed;inset-block-start:8px;inset-inline-start:8px;transform:translateY(-180%);z-index:100000;background:var(--gf-surface);color:var(--gf-text);padding:12px 20px;border:2px solid currentColor}
+.glotframe .glotframe-skip:focus{transform:none}
+.glotframe.glotframe--compact .glotframe-main table td,.glotframe.glotframe--compact .glotframe-main table th{padding-block:6px}
+@media(max-width:782px){.glotframe .glotframe-frame{width:calc(100% - 16px);margin:8px auto}.glotframe .glotframe-main,.glotframe .glotframe-region{padding:min(var(--gf-padding),16px)}.glotframe .glotframe-navigation{gap:12px;padding:12px 16px}.glotframe .glotframe-account{margin-inline-start:0;width:100%}.glotframe .glotframe-main{overflow-x:auto}}
+@media(prefers-reduced-motion:reduce){.glotframe *{scroll-behavior:auto}}
+@media(forced-colors:active){.glotframe .glotframe-frame{border:1px solid CanvasText;box-shadow:none}}
+.glotframe .glotframe-main .gp-column-priority{white-space:nowrap;min-width:2.5em;overflow-wrap:normal}
+/* Semantic GlotPress tokens are reassigned here because inherited root aliases
+   otherwise retain the original light palette in dark workspaces. */
+body.glotframe{--gp-color-fg-muted:var(--gf-muted);--gp-color-fg-subtle:var(--gf-subtle);--gp-color-canvas-inset:var(--gf-subtle);--gp-color-canvas-subtle:var(--gf-subtle);--gp-color-neutral-emphasis:var(--gf-border);--gp-color-neutral-muted:var(--gf-subtle);--gp-color-border-muted:var(--gf-border);--gp-color-border-subtle:var(--gf-border);--gp-color-input-border:var(--gf-field-border);--gp-color-fg-on-emphasis:var(--gf-on-accent);--gp-color-btn-bg:var(--gf-subtle);--gp-color-btn-hover-bg:var(--gf-field);--gp-color-btn-active-bg:var(--gf-subtle);--gp-color-btn-active-text:var(--gf-text);--gp-color-btn-active-border:var(--gf-accent);--gp-color-btn-primary-text:var(--gf-on-accent);--gp-color-btn-primary-hover-text:var(--gf-on-accent);--gp-color-btn-primary-active-text:var(--gf-on-accent);--gp-color-btn-primary-active-bg:var(--gf-accent);--gp-color-btn-primary-active-border:var(--gf-accent);--gp-color-btn-disabled-text:var(--gf-muted);--gp-color-btn-disabled-bg:var(--gf-subtle);--gp-color-btn-disabled-border:var(--gf-border);--gp-color-btn-danger-text:var(--gf-danger);--gp-color-btn-danger-bg:var(--gf-danger-bg);--gp-color-btn-danger-border:var(--gf-danger);--gp-color-btn-danger-hover-text:var(--gf-danger);--gp-color-btn-danger-hover-bg:var(--gf-danger-bg);--gp-color-btn-danger-hover-border:var(--gf-danger);--gp-color-success-fg:var(--gf-success);--gp-color-success-emphasis:var(--gf-success);--gp-color-attention-fg:var(--gf-warning);--gp-color-attention-emphasis:var(--gf-warning);--gp-color-danger-fg:var(--gf-danger);--gp-color-danger-emphasis:var(--gf-danger);--gp-color-bubble-inactive-project-text:var(--gf-warning);--gp-color-bubble-inactive-project-border:var(--gf-warning);--gp-color-status-current-subtle:var(--gf-success-bg);--gp-color-status-fuzzy-subtle:var(--gf-warning-bg);--gp-color-status-waiting-subtle:var(--gf-warning-bg);--gp-color-status-rejected-subtle:var(--gf-danger-bg);--gp-color-status-old-subtle:var(--gf-neutral-bg);--gp-color-status-changesrequested-subtle:var(--gf-subtle)}
+.glotframe .gp-content .button{border-radius:7px;padding:8px 14px;min-height:38px;font-weight:600;box-shadow:0 1px 2px #00000012;transition:background-color .12s,border-color .12s}
+.glotframe .gp-content .button.is-small{padding:5px 10px;min-height:30px}
+.glotframe .gp-content .button.is-link{box-shadow:none}
+.glotframe .gp-content .button:focus-visible{outline:3px solid var(--gf-accent);outline-offset:3px}
+.glotframe .gp-content :is(input[type="text"],input[type="number"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textarea,select){background-color:var(--gf-field);color:var(--gf-text);border:1px solid var(--gf-field-border);border-radius:7px;font:inherit;line-height:1.5;padding:8px 12px;min-height:38px;max-width:100%;box-shadow:none}
+.glotframe .gp-content textarea{min-height:112px;resize:vertical}
+.glotframe .gp-content select{appearance:auto;background-image:none;padding-inline-end:8px}
+.glotframe .gp-content :is(input,textarea)::placeholder{color:var(--gf-muted);opacity:1}
+.glotframe .gp-content :is(input,textarea,select):focus-visible{outline:3px solid var(--gf-accent);outline-offset:2px;border-color:var(--gf-accent);box-shadow:none}
+.glotframe .gp-content :is(input,textarea,select):disabled{background-color:var(--gf-subtle);color:var(--gf-muted);cursor:not-allowed}
+.glotframe .gp-content :is(input[type="checkbox"],input[type="radio"]){accent-color:var(--gf-accent)}
+.glotframe :is(#projects dd,#sub-projects dd,.editor .strings p.plural-numbers,.invisibles,.source-string__comment,.translation__comment){color:var(--gf-muted)}
+.glotframe :is(.notice,.error,.gp-js-message){border-radius:7px}
+.glotframe .notice{background:var(--gf-warning-bg);color:var(--gf-warning);border-color:var(--gf-warning)}
+.glotframe .error{background:var(--gf-danger-bg);color:var(--gf-danger);border-color:var(--gf-danger)}
+.glotframe .ui-tooltip{background:var(--gf-subtle);color:var(--gf-text);border:1px solid var(--gf-border)}
+@media(prefers-reduced-motion:reduce){.glotframe .gp-content .button{transition:none}}
+.glotframe .editor .meta dd{color:var(--gf-text)}
+.glotframe :is(.user-card dl.user-info dt,.recent-projects .ago){color:var(--gf-muted)}
+.glotframe :is(.glossary-description,.project-description){border-color:var(--gf-border)}
+.glotframe span.added{color:var(--gf-success)}.glotframe span.removed{color:var(--gf-danger)}
+.glotframe .gp-js-error{background:var(--gf-danger-bg);color:var(--gf-danger)}
+.glotframe .gp-js-success{background:var(--gf-success-bg);color:var(--gf-success)}
+.glotframe .gp-js-notice{background:var(--gf-warning-bg);color:var(--gf-warning)}
+.glotframe.admin-bar .gp-js-message{top:32px}@media(max-width:782px){.glotframe.admin-bar .gp-js-message{top:46px}}
+/* The viewport owns the surrounding canvas independently of theme body styles. */
+body.glotframe{padding:0;min-width:0}
+body.glotframe>.glotframe-viewport{display:flow-root;box-sizing:border-box;min-height:100vh;width:100%;padding:32px 16px;background-color:var(--gf-background);background-image:var(--gf-background-image,none);background-size:cover;background-position:center}
+.glotframe .glotframe-viewport>.glotframe-frame{width:100%;margin:0 auto}
+body.glotframe.glotframe--full>.glotframe-viewport{padding:0}
+body.glotframe #glotframe-main{padding:var(--gf-padding)}
+.glotframe #glotframe-main table.translations>tbody>tr.editor>td{padding:clamp(16px,2vw,28px)}
+.glotframe #glotframe-main table.translations>tbody>tr.preview>td{padding:12px 16px}
+.glotframe #glotframe-main table.translations>thead>tr>th{padding:12px 16px}
+.glotframe #glotframe-main .editor .strings{padding-inline-end:16px}
+.glotframe #glotframe-main .editor .meta{padding-inline:16px}
+.glotframe #glotframe-main .editor .entry-actions{margin-block-start:20px}
+.glotframe.glotframe--compact #glotframe-main table.translations>tbody>tr.preview>td{padding-block:8px}
+@media(max-width:782px){body.glotframe>.glotframe-viewport{padding:12px 8px}body.glotframe #glotframe-main{padding:min(var(--gf-padding),20px)}.glotframe #glotframe-main table.translations>tbody>tr.editor>td{padding:16px}.glotframe #glotframe-main .editor .strings,.glotframe #glotframe-main .editor .meta{padding-inline:0}}
+.glotframe #glotframe-main>.breadcrumb{margin:0 0 24px;padding:12px 16px;border-radius:6px}
+
+/* Count preview rows only: the hidden editor rows must not interrupt the stripes.
+ * A transparent tint preserves GlotPress's status background underneath. */
+.glotframe #glotframe-main table.translations>tbody>tr.preview:nth-child(even of .preview){background-image:linear-gradient(#8080800d,#8080800d);background-image:linear-gradient(color-mix(in srgb,var(--gf-text) 4%,transparent),color-mix(in srgb,var(--gf-text) 4%,transparent))}
+.glotframe #glotframe-main table.translations>tbody>tr.preview:is(:hover,:focus-within){background-image:linear-gradient(#80808026,#80808026);background-image:linear-gradient(color-mix(in srgb,var(--gf-accent) 14%,transparent),color-mix(in srgb,var(--gf-accent) 14%,transparent));outline:1px solid var(--gf-accent);outline-offset:-1px}
+.glotframe #glotframe-main table.translations>tbody>tr.preview>td.actions{padding-inline:8px;white-space:nowrap}
+
+/* Keep narrow utility columns usable after the general cell padding is applied. */
+.glotframe #glotframe-main table.translations .gp-column-checkbox{width:3rem;min-width:3rem;padding-inline:8px}
+.glotframe #glotframe-main table.translations :is(.gp-column-priority,td.priority){width:4.5rem;min-width:4.5rem;padding-inline:8px;white-space:nowrap;overflow-wrap:normal;word-break:normal}
+.glotframe #glotframe-main table.translations .gp-column-actions{width:5rem;min-width:5rem;padding-inline:8px;white-space:nowrap}
+.glotframe #glotframe-main .gp-table-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-block:20px;float:none;clear:both}
+.glotframe #glotframe-main .gp-table-actions .bulk-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;float:none;max-width:100%}
+.glotframe #glotframe-main .gp-table-actions .paging{float:none;margin:0;margin-inline-start:auto;flex-wrap:wrap;gap:6px}
+.glotframe #glotframe-main #legend{display:flex;align-items:center;flex-wrap:wrap;gap:8px;float:none;margin:0;line-height:1.5}
+.glotframe #glotframe-main #legend>div{float:none;margin:0}
+.glotframe #glotframe-main #legend .box{flex:none}
+.glotframe #glotframe-main .filters-toolbar{margin-block:20px}
+.glotframe #glotframe-main .filters-toolbar>div{line-height:1.8}
+.glotframe #glotframe-main .gp-table-actions select{width:auto;min-width:10rem;max-width:100%}
+.glotframe-project-form-page #glotframe-main>form>dl{max-width:56rem}
+.glotframe-project-form-page #glotframe-main>form>dl dt{margin:24px 0 8px;line-height:1.5}
+.glotframe-project-form-page #glotframe-main>form>dl dd{margin:0 0 20px;padding:0;max-width:100%}
+.glotframe-project-form-page #glotframe-main>form>dl dd :is(input[type="text"],textarea,select){width:100%;box-sizing:border-box}
+.glotframe-project-form-page #glotframe-main>form>dl dd :is(small,.ternary){display:block;margin-block-start:8px;line-height:1.6}
+.glotframe-project-form-page #glotframe-main>form>dl code{overflow-wrap:anywhere;white-space:normal}
+.glotframe-project-form-page #glotframe-main>form>dl input[type="checkbox"]{margin-inline-start:8px;vertical-align:middle}
+.glotframe-project-form-page #glotframe-main>form>dl+.button-group{margin-block:24px}
+.glotframe .glotframe-project-action{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--gf-accent);border-radius:7px;padding:6px 12px;text-decoration:none;font-weight:600}
+.glotframe .glotframe-project-action:is(:hover,:focus-visible){background:var(--gf-accent);color:var(--gf-on-accent)}
+@media(max-width:782px){.glotframe #glotframe-main .gp-table-actions .paging{margin-inline-start:0}.glotframe #glotframe-main #legend{width:100%}}
+
+/* Support both current column classes and the older th.priority structure. */
+.glotframe #glotframe-main table.translations :is(th.priority,th.glotframe-priority-heading){box-sizing:border-box;width:4.5rem;min-width:4.5rem;padding-inline:8px;white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important}
+.glotframe-translations #glotframe-main .gp-table-actions.bottom{margin-block:28px;row-gap:24px}
+.glotframe-translations #glotframe-main .gp-table-actions.bottom #legend{order:3;flex-basis:100%;padding-block:4px}
+.glotframe-translations #glotframe-main>table.translations~.paging{float:none;clear:both;display:flex;flex-wrap:wrap;gap:6px;margin:28px 0 24px}
+.glotframe-translations #glotframe-main>#legend{float:none;clear:both;margin-block:24px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.glotframe-translations #glotframe-main>.actionlist{clear:both;margin-block:28px 12px;column-gap:12px;row-gap:12px;line-height:1.8}
+.glotframe-translations #glotframe-main>.actionlist select{margin-block:4px}
+/* Reset both halves of GlotPress's older two-column project layout. */
+.glotframe #glotframe-main .with-sub-projects{display:block;float:none;margin:0;width:auto;min-width:0}
+.glotframe #glotframe-main #sub-projects{float:none;width:100%;margin:28px 0;min-width:0}
+.glotframe #glotframe-main .gf-project-actions-panel{display:block;float:none;clear:both;margin-block:20px 28px}
+.glotframe #glotframe-main #project-actions-toggle{display:inline-flex;align-items:center;gap:6px;float:none;margin:0}
+.glotframe #glotframe-main .gf-project-actions-panel>.project-actions{float:none;width:auto;clear:both;margin:14px 0 0}
+.glotframe #glotframe-main .gf-project-actions-panel ul{padding:0;margin:0;list-style:none}
+.glotframe #glotframe-main .gf-project-actions-panel li{margin:8px 0;line-height:1.6}
+.glotframe #glotframe-main :is(table.locales,table.locale-sub-projects,table.glossary){width:100%;table-layout:auto;border-collapse:collapse;margin-block:24px}
+.glotframe #glotframe-main :is(table.locales,table.locale-sub-projects,table.glossary)>thead>tr>th{text-align:start;padding:14px 16px;vertical-align:bottom;border-bottom:2px solid var(--gf-border);line-height:1.5;background:var(--gf-subtle)}
+.glotframe #glotframe-main :is(table.locales,table.locale-sub-projects,table.glossary)>tbody>tr:not(.editor)>:is(td,th){text-align:start;padding:14px 16px;vertical-align:top;border-bottom:1px solid var(--gf-border);line-height:1.65}
+.glotframe #glotframe-main :is(table.locales,table.locale-sub-projects,table.glossary)>tbody>tr:not(.editor):nth-child(even){background-color:var(--gf-subtle)}
+.glotframe #glotframe-main :is(table.locales,table.locale-sub-projects,table.glossary)>tbody>tr:not(.editor):hover{outline:1px solid var(--gf-accent);outline-offset:-1px}
+.glotframe #glotframe-main table.locales th{width:auto}.glotframe #glotframe-main table.locales :is(th,td):nth-child(1){width:35%}.glotframe #glotframe-main table.locales :is(th,td):nth-child(2){width:40%}.glotframe #glotframe-main table.locales :is(th,td):nth-child(3){width:25%}
+.glotframe #glotframe-main table.locales td:nth-child(3){font-family:ui-monospace,monospace;white-space:nowrap}
+.glotframe #glotframe-main :is(.locales-filter,.variants,.glossary-links){margin-block:20px;line-height:2}
+.glotframe #glotframe-main .locales-filter label{display:block;line-height:1.6}.glotframe #glotframe-main .locales-filter #locales-filter{margin-inline-start:14px;vertical-align:middle;max-width:calc(100% - 14px)}
+@media(max-width:600px){.glotframe #glotframe-main .locales-filter #locales-filter{display:block;margin-inline-start:0;margin-block-start:8px;width:100%;max-width:100%;box-sizing:border-box}}
+.glotframe #glotframe-main :is(.variants,.glossary-links) a{display:inline-block;margin:4px 8px 4px 0;padding:4px 8px;border:1px solid var(--gf-border);border-radius:5px}
+.glotframe #glotframe-main td.gf-number,.glotframe #glotframe-main td.stats{text-align:end!important;font-variant-numeric:tabular-nums}
+.glotframe #glotframe-main th.sub-project{width:25%;font-size:.95em}.glotframe #glotframe-main th.sub-project .stats{margin-top:10px;font-size:.85em;font-weight:400;color:var(--gf-muted)}
+.glotframe #glotframe-main .bubble.morethan90{display:inline-block;margin:4px 8px;padding:2px 7px;border:1px solid var(--gf-success);border-radius:5px;background:var(--gf-success-bg);color:var(--gf-success);font-size:.8em;white-space:nowrap}
+.glotframe #glotframe-main table.glossary th:nth-child(1){width:19%}.glotframe #glotframe-main table.glossary th:nth-child(2){width:12%}.glotframe #glotframe-main table.glossary th:nth-child(3){width:20%}.glotframe #glotframe-main table.glossary th:nth-child(4){width:35%}
+.glotframe #glotframe-main table.glossary td{overflow-wrap:anywhere}.glotframe #glotframe-main table.glossary td.actions{white-space:nowrap}.glotframe #glotframe-main table.glossary td.actions a{display:inline-block;padding:5px 10px;border:1px solid var(--gf-border);border-radius:5px}
+.glotframe #glotframe-main table.glossary tr.editor>td{padding:20px;background:var(--gf-subtle)}
+.glotframe #glotframe-main .gf-glossary-form{margin-block:24px;max-width:56rem}.glotframe #glotframe-main .gf-glossary-form dt{margin:20px 0 8px}.glotframe #glotframe-main .gf-glossary-form dd{margin:0 0 18px;padding:0}.glotframe #glotframe-main .gf-glossary-form :is(input[type=text],textarea){width:100%;box-sizing:border-box}.glotframe #glotframe-main .gf-glossary-form textarea{min-height:110px}
+@media(max-width:782px){.glotframe #glotframe-main .gf-table-scroll{overflow-x:auto;width:100%;margin-block:20px}.glotframe #glotframe-main .gf-table-scroll>table{min-width:620px;margin:0}.glotframe #glotframe-main .gf-table-scroll>table.locales{min-width:440px}.glotframe #glotframe-main :is(table.locales,table.locale-sub-projects,table.glossary)>tbody>tr:not(.editor)>:is(td,th){padding:12px}}

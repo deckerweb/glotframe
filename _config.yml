@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+title: GlotFrame
+description: Shape GlotPress. Make it yours.
+exclude:
+  - includes
+  - languages
+  - templates
+  - blocks
+  - tools

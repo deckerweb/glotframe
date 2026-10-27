@@ -1,0 +1,2465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GlotFrame 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/glotframe\n"
+"POT-Creation-Date: 2026-10-27T11:33:56+00:00\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: glotframe.php
+msgid "GlotFrame"
+msgstr "GlotFrame"
+
+#. Plugin URI of the plugin
+#: glotframe.php
+msgid "https://github.com/deckerweb/glotframe"
+msgstr "https://github.com/deckerweb/glotframe"
+
+#. Description of the plugin
+#: glotframe.php includes/class-components.php:39
+msgid ""
+"Shape your GlotPress workspace with block headers, footers and flexible "
+"layouts."
+msgstr ""
+"Gestalte deinen GlotPress-Übersetzungsbereich mit blockbasierten Headern, "
+"Footern und flexiblen Layouts."
+
+#. Author of the plugin
+#: glotframe.php
+msgid "David Decker – DECKERWEB"
+msgstr "David Decker – DECKERWEB"
+
+#. Author URI of the plugin
+#: glotframe.php
+msgid "https://github.com/deckerweb"
+msgstr "https://github.com/deckerweb"
+
+#: includes/class-admin-chrome.php:50
+msgid "Shape GlotPress. Do more with ease."
+msgstr "GlotPress gestalten. Einfach weiterkommen."
+
+#: includes/class-admin-chrome.php:72 includes/class-admin-chrome.php:93
+#: includes/class-admin-chrome.php:94 includes/class-admin-chrome.php:110
+#: includes/class-admin-chrome.php:111
+msgid "Changelog"
+msgstr "Änderungsverlauf"
+
+#: includes/class-admin-chrome.php:110
+msgid "GlotFrame resources"
+msgstr "GlotFrame-Links"
+
+#: includes/class-admin-chrome.php:110 includes/class-admin.php:401
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/class-admin-chrome.php:110
+msgid "Plugin license: GPL v2 or later"
+msgstr "Plugin-Lizenz: GPL v2 oder höher"
+
+#: includes/class-admin-chrome.php:111
+msgid "Close"
+msgstr "Schließen"
+
+#: includes/class-admin.php:32 includes/class-admin.php:364
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/class-admin.php:39
+msgid ""
+"GlotPress needs pretty permalinks. Choose a permalink structure other than "
+"Plain in Settings → Permalinks, then return here."
+msgstr ""
+"GlotPress benötigt lesbare Permalinks. Wähle unter Einstellungen → "
+"Permalinks eine andere Struktur als Einfach und kehre anschließend hierher "
+"zurück."
+
+#: includes/class-admin.php:41
+msgid ""
+"GlotFrame is paused because a supported GlotPress runtime is unavailable. "
+"Install or activate GlotPress 4.x. Settings and layouts are preserved."
+msgstr ""
+"GlotFrame pausiert, weil keine unterstützte GlotPress-Umgebung verfügbar "
+"ist. Installiere oder aktiviere GlotPress 4.x. Einstellungen und Layouts "
+"bleiben erhalten."
+
+#: includes/class-admin.php:69 includes/class-admin.php:382
+msgid "Translation portal"
+msgstr "Übersetzungsportal"
+
+#: includes/class-admin.php:70
+msgid "Toolbar navigation"
+msgstr "Toolbar-Navigation"
+
+#: includes/class-admin.php:71
+msgid "Workspace layout"
+msgstr "Layout des Übersetzungsbereichs"
+
+#: includes/class-admin.php:72
+msgid "Header, footer and content"
+msgstr "Header, Footer und Inhalte"
+
+#: includes/class-admin.php:73
+msgid "Appearance"
+msgstr "Gestaltung"
+
+#: includes/class-admin.php:74
+msgid "Stored data"
+msgstr "Gespeicherte Daten"
+
+#: includes/class-admin.php:75
+msgid "GlotPress language"
+msgstr "GlotPress-Sprache"
+
+#: includes/class-admin.php:102
+msgid "GlotPress interface language"
+msgstr "Sprache der GlotPress-Oberfläche"
+
+#: includes/class-admin.php:106
+msgid "Use the WordPress language"
+msgstr "WordPress-Sprache übernehmen"
+
+#: includes/class-admin.php:107
+msgid "German (informal)"
+msgstr "Deutsch (Du)"
+
+#: includes/class-admin.php:108
+msgid "German (formal)"
+msgstr "Deutsch (Sie)"
+
+#: includes/class-admin.php:111
+msgid "Enable statistics"
+msgstr "Statistik aktivieren"
+
+#: includes/class-admin.php:112
+msgid "Use GlotPress as the homepage"
+msgstr "GlotPress als Startseite verwenden"
+
+#: includes/class-admin.php:113
+msgid "GlotPress URL path"
+msgstr "GlotPress-URL-Pfad"
+
+#: includes/class-admin.php:114
+msgid "Enable GlotPress toolbar"
+msgstr "GlotPress-Toolbar aktivieren"
+
+#: includes/class-admin.php:115
+msgid "Toolbar title"
+msgstr "Toolbar-Titel"
+
+#: includes/class-admin.php:117
+msgid "Toolbar position"
+msgstr "Toolbar-Position"
+
+#: includes/class-admin.php:121
+msgid "Standard position"
+msgstr "Standardposition"
+
+#: includes/class-admin.php:122
+msgid "Left: at the beginning"
+msgstr "Links: am Anfang"
+
+#: includes/class-admin.php:123
+msgid "Left: at the end"
+msgstr "Links: am Ende"
+
+#: includes/class-admin.php:124
+msgid "Right: before the user profile"
+msgstr "Rechts: vor dem Benutzerprofil"
+
+#: includes/class-admin.php:125
+msgid "Before a toolbar entry"
+msgstr "Vor einem Toolbar-Eintrag"
+
+#: includes/class-admin.php:126
+msgid "After a toolbar entry"
+msgstr "Nach einem Toolbar-Eintrag"
+
+#: includes/class-admin.php:129
+msgid "Reference toolbar entry"
+msgstr "Bezugseintrag in der Toolbar"
+
+#: includes/class-admin.php:130
+msgid "Toolbar icon"
+msgstr "Toolbar-Symbol"
+
+#: includes/class-admin.php:131
+msgid "Admin menu icon"
+msgstr "Adminmenü-Symbol"
+
+#: includes/class-admin.php:133
+msgid "Default project view"
+msgstr "Standardansicht für Projekte"
+
+#: includes/class-admin.php:137 includes/class-blocks.php:101
+#: includes/class-shell.php:115
+msgid "List"
+msgstr "Liste"
+
+#: includes/class-admin.php:138 includes/class-blocks.php:102
+#: includes/class-icons.php:21 includes/class-shell.php:116
+msgid "Grid"
+msgstr "Raster"
+
+#: includes/class-admin.php:141
+msgid "Show all projects"
+msgstr "Alle Projekte anzeigen"
+
+#: includes/class-admin.php:142
+msgid "Include subprojects"
+msgstr "Unterprojekte einbeziehen"
+
+#: includes/class-admin.php:143
+msgid "Subproject depth"
+msgstr "Tiefe der Unterprojekte"
+
+#: includes/class-admin.php:144 includes/class-admin.php:208
+msgid "Color preset"
+msgstr "Farbvorlage"
+
+#: includes/class-admin.php:145
+msgid "Enable GlotFrame"
+msgstr "GlotFrame aktivieren"
+
+#: includes/class-admin.php:147 includes/class-icons.php:19
+#: includes/class-site-health.php:75
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/class-admin.php:151 includes/class-site-health.php:76
+msgid "Boxed"
+msgstr "Boxed (begrenzte Breite)"
+
+#: includes/class-admin.php:152 includes/class-site-health.php:76
+msgid "Full width"
+msgstr "Volle Breite"
+
+#: includes/class-admin.php:155
+msgid "Content width (px)"
+msgstr "Inhaltsbreite (px)"
+
+#: includes/class-admin.php:156
+msgid "Wider translation editor"
+msgstr "Breiterer Übersetzungseditor"
+
+#: includes/class-admin.php:157
+msgid "Translation editor width (px)"
+msgstr "Breite des Übersetzungseditors (px)"
+
+#: includes/class-admin.php:158
+msgid "Inner spacing (px)"
+msgstr "Innenabstand (px)"
+
+#: includes/class-admin.php:159
+msgid "Corner radius (px)"
+msgstr "Eckenradius (px)"
+
+#: includes/class-admin.php:160 includes/class-layouts.php:88
+msgid "Header"
+msgstr "Header"
+
+#: includes/class-admin.php:161 includes/class-layouts.php:89
+msgid "Above the workspace"
+msgstr "Oberhalb des Übersetzungsbereichs"
+
+#: includes/class-admin.php:162 includes/class-layouts.php:90
+msgid "Below the workspace"
+msgstr "Unterhalb des Übersetzungsbereichs"
+
+#: includes/class-admin.php:163 includes/class-layouts.php:91
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/class-admin.php:164
+msgid "Outer background"
+msgstr "Äußerer Hintergrund"
+
+#: includes/class-admin.php:165
+msgid "Background image"
+msgstr "Hintergrundbild"
+
+#: includes/class-admin.php:166
+msgid "Content background"
+msgstr "Inhaltshintergrund"
+
+#: includes/class-admin.php:167
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: includes/class-admin.php:168
+msgid "Accent color"
+msgstr "Akzentfarbe"
+
+#: includes/class-admin.php:169
+msgid "Border color"
+msgstr "Rahmenfarbe"
+
+#: includes/class-admin.php:171
+msgid "Font family"
+msgstr "Schriftfamilie"
+
+#: includes/class-admin.php:175
+msgid "System sans serif"
+msgstr "Serifenlose Systemschrift"
+
+#: includes/class-admin.php:176
+msgid "Serif"
+msgstr "Serifenschrift"
+
+#: includes/class-admin.php:177
+msgid "Monospace"
+msgstr "Nichtproportionale Schrift"
+
+#: includes/class-admin.php:180
+msgid "Font size (px)"
+msgstr "Schriftgröße (px)"
+
+#: includes/class-admin.php:182
+msgid "Table spacing"
+msgstr "Tabellenabstände"
+
+#: includes/class-admin.php:186
+msgid "Comfortable"
+msgstr "Großzügig"
+
+#: includes/class-admin.php:187
+msgid "Compact"
+msgstr "Kompakt"
+
+#: includes/class-admin.php:190
+msgid "Delete GlotFrame data on uninstall"
+msgstr "GlotFrame-Daten bei Deinstallation löschen"
+
+#. translators: %s: saved toolbar entry ID absent from this screen.
+#: includes/class-admin.php:221
+#, php-format
+msgid "Unavailable on this page (%s)"
+msgstr "Auf dieser Seite nicht vorhanden (%s)"
+
+#: includes/class-admin.php:223
+msgid "Choose a toolbar entry"
+msgstr "Toolbar-Eintrag auswählen"
+
+#: includes/class-admin.php:237
+msgid "Default / no extra content"
+msgstr "Standard / kein zusätzlicher Inhalt"
+
+#. translators: %d: stored layout ID.
+#: includes/class-admin.php:255
+#, php-format
+msgid "Unavailable layout (ID %d)"
+msgstr "Nicht verfügbares Layout (ID %d)"
+
+#. translators: %s: layout title.
+#: includes/class-admin.php:258 includes/class-layout-admin.php:132
+#: includes/class-layout-admin.php:151
+msgid "Untitled layout"
+msgstr "Layout ohne Titel"
+
+#: includes/class-admin.php:268 includes/class-layouts.php:36
+msgid "Edit layout"
+msgstr "Layout bearbeiten"
+
+#: includes/class-admin.php:270
+msgid ""
+"This layout is unavailable and is not displayed. Select a published layout "
+"or save to clear this assignment."
+msgstr ""
+"Dieses Layout ist nicht verfügbar und wird nicht angezeigt. Wähle ein "
+"veröffentlichtes Layout oder speichere, um diese Zuordnung zu entfernen."
+
+#: includes/class-admin.php:276
+msgid "Choose image"
+msgstr "Bild auswählen"
+
+#: includes/class-admin.php:276
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: includes/class-admin.php:299
+msgid ""
+"Temporarily redirects the WordPress homepage to GlotPress. Existing Reading "
+"settings are preserved and resume when this option is off or GlotFrame is "
+"inactive."
+msgstr ""
+"Leitet die WordPress-Startseite vorübergehend zu GlotPress weiter. Die "
+"bisherigen Einstellungen unter Lesen bleiben erhalten und gelten wieder, "
+"sobald diese Option ausgeschaltet oder GlotFrame inaktiv ist."
+
+#: includes/class-admin.php:300
+msgid ""
+"One path segment, for example translate. Leave empty to keep the current "
+"GlotPress default. Existing links to an old custom path are not redirected "
+"automatically."
+msgstr ""
+"Ein Pfadsegment, zum Beispiel translate. Lass das Feld leer, um den "
+"aktuellen GlotPress-Standard beizubehalten. Vorhandene Links zu einem alten "
+"individuellen Pfad werden nicht automatisch weitergeleitet."
+
+#: includes/class-admin.php:301
+msgid ""
+"Available in the WordPress admin and on the website for logged-in users with "
+"a visible toolbar."
+msgstr ""
+"Im WordPress-Admin und auf der Website für angemeldete Benutzer mit "
+"sichtbarer Toolbar verfügbar."
+
+#: includes/class-admin.php:302
+msgid ""
+"Number of subproject levels below a top-level project, from 1 to 6. Applies "
+"when subprojects are enabled."
+msgstr ""
+"Anzahl der Unterprojektebenen unter einem Hauptprojekt, von 1 bis 6. Gilt "
+"bei eingeschalteten Unterprojekten."
+
+#: includes/class-admin.php:303
+msgid ""
+"Selecting a preset fills the color controls. You can adjust them before "
+"saving; content, widths and background images stay unchanged."
+msgstr ""
+"Die Auswahl einer Farbvorlage füllt die Farbfelder aus. Du kannst sie vor "
+"dem Speichern anpassen; Inhalte, Breiten und Hintergrundbilder bleiben "
+"unverändert."
+
+#: includes/class-admin.php:304
+msgid ""
+"Applies to GlotPress HTML pages on this website. Your regular website pages "
+"keep their existing layout."
+msgstr ""
+"Gilt für die GlotPress-HTML-Seiten dieser Website. Die übrigen Seiten "
+"behalten ihr bestehendes Layout."
+
+#: includes/class-admin.php:305
+msgid "Uses the wider setting for translation tables in boxed layouts."
+msgstr ""
+"Verwendet bei Boxed-Layouts die größere Breite für Übersetzungstabellen."
+
+#: includes/class-admin.php:306
+msgid ""
+"Publish layouts in the block editor, then select them here. The workspace "
+"navigation remains available."
+msgstr ""
+"Veröffentliche Layouts im Block-Editor und wähle sie anschließend hier aus. "
+"Die Navigation des Übersetzungsbereichs bleibt verfügbar."
+
+#: includes/class-admin.php:307
+msgid "The outer background is visible around boxed layouts."
+msgstr "Der äußere Hintergrund ist rund um Boxed-Layouts sichtbar."
+
+#: includes/class-admin.php:308
+msgid ""
+"Choose colors with sufficient contrast for links, controls and keyboard "
+"focus."
+msgstr ""
+"Wähle Farben mit ausreichendem Kontrast für Links, Bedienelemente und den "
+"Tastaturfokus."
+
+#: includes/class-admin.php:309
+msgid ""
+"Off by default. Removes this website’s GlotFrame settings, layouts and their "
+"revisions when the plugin is deleted. Network deletion applies each "
+"website’s choice. Shared Library settings follow the Library’s separate "
+"cleanup policy."
+msgstr ""
+"Standardmäßig ausgeschaltet. Entfernt beim Löschen des Plugins die GlotFrame-"
+"Einstellungen, Layouts und zugehörigen Revisionen dieser Website. Beim "
+"netzwerkweiten Löschen gilt die Auswahl jeder einzelnen Website. Gemeinsame "
+"Library-Einstellungen folgen den eigenen Bereinigungsregeln der Library."
+
+#: includes/class-admin.php:310
+msgid "Show statistics for administrators and signed-in translators."
+msgstr "Zeigt die Statistik für Administratoren und angemeldete Übersetzer."
+
+#: includes/class-admin.php:311
+msgid "Show the project tree in the GlotPress toolbar."
+msgstr "Zeigt den Projektbaum in der GlotPress-Toolbar."
+
+#: includes/class-admin.php:312
+msgid "Also include child projects to the configured depth."
+msgstr "Zeigt auch Unterprojekte bis zur eingestellten Tiefe."
+
+#: includes/class-admin.php:313
+msgid ""
+"Applies to this website’s toolbar in the admin and frontend. The standard "
+"position remains the fallback."
+msgstr ""
+"Gilt für die Toolbar dieser Website im Admin und Frontend. Als Rückfall "
+"bleibt die Standardposition erhalten."
+
+#: includes/class-admin.php:314
+msgid ""
+"Choose an entry currently present in your toolbar. If it is missing on "
+"another page, GlotPress keeps its standard position."
+msgstr ""
+"Wähle einen vorhandenen Toolbar-Eintrag. Fehlt er auf einer anderen Seite, "
+"bleibt GlotPress an seiner Standardposition."
+
+#: includes/class-admin.php:341
+msgid "Choose background image"
+msgstr "Hintergrundbild auswählen"
+
+#: includes/class-admin.php:342
+msgid "Use image"
+msgstr "Bild verwenden"
+
+#: includes/class-admin.php:345
+msgid "Unsaved changes"
+msgstr "Ungespeicherte Änderungen"
+
+#: includes/class-admin.php:346
+msgid "No unsaved changes"
+msgstr "Keine ungespeicherten Änderungen"
+
+#: includes/class-admin.php:347
+msgid "Saving…"
+msgstr "Wird gespeichert…"
+
+#: includes/class-admin.php:348
+msgid "Please review the settings errors."
+msgstr "Bitte die gemeldeten Einstellungsfehler prüfen."
+
+#: includes/class-admin.php:382
+msgid "Translation portal active"
+msgstr "Übersetzungsportal aktiv"
+
+#: includes/class-admin.php:382
+msgid ""
+"The homepage opens GlotPress. Your WordPress administration and other pages "
+"remain accessible."
+msgstr ""
+"Die Startseite öffnet GlotPress. Die WordPress-Verwaltung und andere Seiten "
+"bleiben erreichbar."
+
+#: includes/class-admin.php:382 includes/class-navigation.php:25
+msgid "Open GlotPress ↗"
+msgstr "GlotPress öffnen ↗"
+
+#: includes/class-admin.php:388
+msgid "Jump to settings"
+msgstr "Direkt zu den Einstellungen"
+
+#: includes/class-admin.php:390 includes/class-admin.php:413
+msgid "Frontend & layout"
+msgstr "Frontend & Layout"
+
+#: includes/class-admin.php:391 includes/class-admin.php:414
+msgid "Admin & toolbar"
+msgstr "Admin & Toolbar"
+
+#: includes/class-admin.php:392 includes/class-admin.php:415
+msgid "Data & system"
+msgstr "Daten & System"
+
+#: includes/class-admin.php:399
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: includes/class-admin.php:426
+msgid "Block layouts"
+msgstr "Block-Layouts"
+
+#: includes/class-admin.php:426
+msgid "Create block layout"
+msgstr "Block-Layout erstellen"
+
+#: includes/class-admin.php:426 includes/class-navigation.php:138
+msgid "Manage layouts"
+msgstr "Layouts verwalten"
+
+#: includes/class-admin.php:429
+msgid "View GlotPress"
+msgstr "GlotPress ansehen"
+
+#: includes/class-admin.php:435
+msgid ""
+"Settings and layouts belong to this website. GlotPress remains responsible "
+"for translations and permissions."
+msgstr ""
+"Einstellungen und Layouts gehören zu dieser Website. Übersetzungen und "
+"Berechtigungen werden weiterhin von GlotPress verwaltet."
+
+#: includes/class-admin.php:447
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+#: includes/class-admin.php:448
+msgid ""
+"Create a layout, add blocks and publish it. You can create separate layouts "
+"for the header, footer and notices."
+msgstr ""
+"Erstelle ein Layout, füge Blöcke hinzu und veröffentliche es. Für Header, "
+"Footer und Hinweise kannst du getrennte Layouts anlegen."
+
+#: includes/class-admin.php:448
+msgid ""
+"Select your published layouts, choose the workspace width and colors, then "
+"enable GlotFrame and save."
+msgstr ""
+"Wähle deine veröffentlichten Layouts sowie Breite und Farben des "
+"Übersetzungsbereichs aus. Aktiviere anschließend GlotFrame und speichere die "
+"Einstellungen."
+
+#: includes/class-admin.php:448
+msgid ""
+"Open GlotPress to check the project list and translation editor, including "
+"the mobile layout."
+msgstr ""
+"Öffne GlotPress und prüfe die Projektliste und den Übersetzungseditor, auch "
+"in der mobilen Ansicht."
+
+#: includes/class-admin.php:451
+msgid "Questions by topic"
+msgstr "Fragen nach Themen"
+
+#: includes/class-admin.php:453
+msgid "Where can I find layout patterns and GlotPress data blocks?"
+msgstr "Wo finde ich Layout-Vorlagen und GlotPress-Datenblöcke?"
+
+#: includes/class-admin.php:453
+msgid ""
+"Edit a GlotFrame layout and open the block inserter. Patterns appear under "
+"GlotFrame layouts; the five data blocks appear under GlotFrame. For context-"
+"dependent previews, choose a project in the block settings. Existing layouts "
+"are never replaced automatically."
+msgstr ""
+"Bearbeite ein GlotFrame-Layout und öffne die Blockauswahl. Patterns findest "
+"du unter GlotFrame-Layouts, die fünf Datenblöcke unter GlotFrame. Für "
+"kontextabhängige Vorschauen wähle ein Projekt in den Blockeinstellungen. "
+"Vorhandene Layouts werden nie automatisch ersetzt."
+
+#: includes/class-admin.php:454
+msgid "Do I need a specific theme or page builder?"
+msgstr "Benötige ich ein bestimmtes Theme oder einen Page Builder?"
+
+#: includes/class-admin.php:454
+msgid ""
+"No. GlotFrame supplies its own surrounding layout and uses WordPress "
+"presentation blocks. It does not import your active theme’s header or "
+"builder templates."
+msgstr ""
+"Nein. GlotFrame stellt einen eigenen Seitenrahmen bereit und verwendet "
+"WordPress-Blöcke zur Gestaltung. Header des aktiven Themes oder Builder-"
+"Templates werden nicht importiert."
+
+#: includes/class-admin.php:455
+msgid "Why is my layout missing from the selector?"
+msgstr "Warum fehlt mein Layout in der Auswahl?"
+
+#: includes/class-admin.php:455
+msgid ""
+"Only published GlotFrame layouts without password protection can be "
+"selected. Drafts and private layouts are never shown to visitors."
+msgstr ""
+"Nur veröffentlichte GlotFrame-Layouts ohne Passwortschutz sind auswählbar. "
+"Entwürfe und private Layouts werden Besuchern nicht angezeigt."
+
+#: includes/class-admin.php:456
+msgid "Which blocks can I use?"
+msgstr "Welche Blöcke kann ich verwenden?"
+
+#: includes/class-admin.php:456
+msgid ""
+"Groups, columns, text, headings, images, lists, buttons, spacing, site "
+"identity, navigation, social links and details, plus GlotPress project, "
+"action and progress blocks. Query, post-content, HTML, shortcode and "
+"reusable-content blocks are excluded."
+msgstr ""
+"Gruppen, Spalten, Texte, Überschriften, Bilder, Listen, Buttons, Abstände, "
+"Website-Identität, Navigation, soziale Links und Details sowie GlotPress-"
+"Blöcke für Projekte, Aktionen und Fortschritt. Abfrage-, Beitragsinhalt-, "
+"HTML-, Shortcode- und wiederverwendbare Inhaltsblöcke sind ausgeschlossen."
+
+#: includes/class-admin.php:457
+msgid "Does it change translation data or exports?"
+msgstr "Werden Übersetzungsdaten oder Exporte verändert?"
+
+#: includes/class-admin.php:457
+msgid ""
+"No. GlotFrame changes the surrounding HTML layout. Translation permissions, "
+"forms, downloads and API responses remain GlotPress’s responsibility."
+msgstr ""
+"Nein. GlotFrame gestaltet den äußeren HTML-Rahmen. Übersetzungsrechte, "
+"Formulare, Downloads und API-Antworten verwaltet weiterhin GlotPress."
+
+#: includes/class-admin.php:458
+msgid "How does Multisite work?"
+msgstr "Wie funktioniert GlotFrame in Multisite?"
+
+#: includes/class-admin.php:458
+msgid ""
+"Network activation makes GlotFrame available to every website. Each website "
+"keeps its own settings and layouts; there are no network-wide design "
+"overrides."
+msgstr ""
+"Die Netzwerkaktivierung stellt GlotFrame allen Websites zur Verfügung. Jede "
+"Website hat eigene Einstellungen und Layouts; es gibt keine netzwerkweite "
+"Gestaltungsvorgabe."
+
+#: includes/class-admin.php:459
+msgid "What happens when I deactivate or delete it?"
+msgstr "Was passiert beim Deaktivieren oder Löschen?"
+
+#: includes/class-admin.php:459
+msgid ""
+"Deactivation preserves everything. Deletion preserves settings and layouts "
+"by default. Enable the deletion option only if you want to remove this "
+"website’s GlotFrame content too. Other plugins and translation data are "
+"retained."
+msgstr ""
+"Beim Deaktivieren bleibt alles erhalten. Auch beim Löschen bleiben "
+"Einstellungen und Layouts standardmäßig bestehen. Aktiviere die Löschoption "
+"nur, wenn du die GlotFrame-Inhalte dieser Website ebenfalls entfernen "
+"möchtest. Andere Plugins und Übersetzungsdaten bleiben erhalten."
+
+#: includes/class-admin.php:477 includes/class-admin.php:497
+msgid "New:"
+msgstr "Neu:"
+
+#: includes/class-admin.php:478 includes/class-admin.php:498
+msgid "Improved:"
+msgstr "Verbessert:"
+
+#: includes/class-admin.php:479
+msgid "Fixed:"
+msgstr "Behoben:"
+
+#: includes/class-admin.php:480 includes/class-admin.php:499
+msgid "Misc:"
+msgstr "Sonstiges:"
+
+#: includes/class-admin.php:497
+msgid ""
+"Initial release: block headers, footers and notice areas; seven layout "
+"patterns and five dynamic GlotPress blocks; boxed and full-width layouts "
+"with eight color presets, custom colors and backgrounds."
+msgstr ""
+"Erstveröffentlichung: Header, Footer und Hinweise mit WordPress-Blöcken; "
+"sieben Layout-Vorlagen und fünf dynamische GlotPress-Blöcke; Boxed- und Full-"
+"Width-Layouts mit acht Farbvorlagen, eigenen Farben und Hintergründen."
+
+#: includes/class-admin.php:498
+msgid ""
+"Searchable project lists and grids, searchable parent-project selection, "
+"clearer translation and glossary tables, configurable toolbar navigation and "
+"placement, and optional portal homepage and URL path."
+msgstr ""
+"Durchsuchbare Projektlisten und Raster, durchsuchbare Auswahl übergeordneter "
+"Projekte, übersichtlichere Übersetzungs- und Glossartabellen, anpassbare "
+"Toolbar mit Positionswahl sowie optionale Portal-Startseite und eigener URL-"
+"Pfad."
+
+#: includes/class-admin.php:499
+msgid ""
+"Includes German informal and formal interface translations, current operator "
+"and personal statistics, layout management shortcuts, Site Health "
+"information and contextual WordPress Command Palette actions. Requires "
+"WordPress 6.4, PHP 8.3 and active GlotPress 4.x for workspace features; "
+"settings and layouts remain available when GlotPress is absent."
+msgstr ""
+"Enthält deutsche Du- und Sie-Oberflächen, aktuelle Betreiber- und "
+"persönliche Statistiken, Layout-Verwaltungshilfen, Website-Zustandsdaten und "
+"passende Aktionen in der WordPress-Befehlspalette. Erfordert WordPress 6.4, "
+"PHP 8.3 und aktives GlotPress 4.x für den Übersetzungsbereich; Einstellungen "
+"und Layouts bleiben ohne GlotPress verfügbar."
+
+#: includes/class-admin.php:510
+msgid "GlotPress translation portal active"
+msgstr "GlotPress-Übersetzungsportal aktiv"
+
+#: includes/class-blocks.php:24 includes/class-layouts.php:33
+msgid "GlotFrame layouts"
+msgstr "GlotFrame-Layouts"
+
+#: includes/class-blocks.php:89
+msgid "Project overview"
+msgstr "Projektübersicht"
+
+#: includes/class-blocks.php:90
+msgid "Current project"
+msgstr "Aktuelles Projekt"
+
+#: includes/class-blocks.php:91
+msgid "Project actions"
+msgstr "Projektaktionen"
+
+#: includes/class-blocks.php:92
+msgid "Translation progress"
+msgstr "Übersetzungsfortschritt"
+
+#: includes/class-blocks.php:93
+msgid "Project-group statistics"
+msgstr "Projektgruppen-Statistik"
+
+#: includes/class-blocks.php:94
+msgid "GlotPress data"
+msgstr "GlotPress-Daten"
+
+#: includes/class-blocks.php:95 includes/class-statistics.php:439
+#: includes/class-statistics.php:454
+msgid "Project"
+msgstr "Projekt"
+
+#: includes/class-blocks.php:96
+msgid "Current project (automatic)"
+msgstr "Aktuelles Projekt (automatisch)"
+
+#: includes/class-blocks.php:97
+msgid "Projects to show"
+msgstr "Anzuzeigende Projekte"
+
+#: includes/class-blocks.php:98
+msgid "Top-level projects"
+msgstr "Hauptprojekte"
+
+#: includes/class-blocks.php:99 includes/class-statistics.php:395
+msgid "Subprojects"
+msgstr "Unterprojekte"
+
+#: includes/class-blocks.php:100 includes/class-statistics.php:351
+msgid "View"
+msgstr "Ansicht"
+
+#: includes/class-blocks.php:103
+msgid "Sort order"
+msgstr "Sortierung"
+
+#: includes/class-blocks.php:104
+msgid "Name A–Z"
+msgstr "Name A–Z"
+
+#: includes/class-blocks.php:105
+msgid "Name Z–A"
+msgstr "Name Z–A"
+
+#: includes/class-blocks.php:106
+msgid "Active projects only"
+msgstr "Nur aktive Projekte"
+
+#: includes/class-blocks.php:107
+msgid "Language code (optional)"
+msgstr "Sprachcode (optional)"
+
+#: includes/class-blocks.php:108
+msgid "Maximum translation sets"
+msgstr "Maximale Anzahl der Übersetzungssets"
+
+#: includes/class-blocks.php:109
+msgid "Show description"
+msgstr "Beschreibung anzeigen"
+
+#: includes/class-blocks.php:110
+msgid "Choose a project to preview context-dependent content."
+msgstr "Für die Vorschau kontextabhängiger Inhalte ein Projekt auswählen."
+
+#: includes/class-blocks.php:252
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/class-blocks.php:252
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/class-blocks.php:260
+msgid "No projects to display."
+msgstr "Keine Projekte vorhanden."
+
+#: includes/class-blocks.php:306
+msgid "No translation sets to display."
+msgstr "Keine Übersetzungssets vorhanden."
+
+#: includes/class-blocks.php:321
+msgid "Browse projects"
+msgstr "Projekte entdecken"
+
+#: includes/class-blocks.php:327
+msgid "Compact header"
+msgstr "Kompakter Header"
+
+#: includes/class-blocks.php:328
+msgid "A place for your translation community."
+msgstr "Ein Ort für deine Übersetzergemeinschaft."
+
+#: includes/class-blocks.php:331
+msgid "Welcome and introduction"
+msgstr "Willkommen und Einführung"
+
+#: includes/class-blocks.php:332
+msgid "Welcome to our translation community"
+msgstr "Willkommen in unserer Übersetzergemeinschaft"
+
+#: includes/class-blocks.php:332
+msgid "Choose a project and help make it available in your language."
+msgstr ""
+"Wähle ein Projekt und hilf mit, es in deiner Sprache verfügbar zu machen."
+
+#: includes/class-blocks.php:335
+msgid "Quick start in three steps"
+msgstr "Schnellstart in drei Schritten"
+
+#: includes/class-blocks.php:336
+msgid "Start translating"
+msgstr "Mit dem Übersetzen beginnen"
+
+#: includes/class-blocks.php:336
+msgid "1. Choose a project and your language."
+msgstr "1. Wähle ein Projekt und deine Sprache."
+
+#: includes/class-blocks.php:336
+msgid "2. Read the project guidelines and glossary."
+msgstr "2. Lies die Projektrichtlinien und das Glossar."
+
+#: includes/class-blocks.php:336
+msgid "3. Suggest a translation for review."
+msgstr "3. Schlage eine Übersetzung zur Prüfung vor."
+
+#: includes/class-blocks.php:339
+msgid "Announcement"
+msgstr "Ankündigung"
+
+#: includes/class-blocks.php:340
+msgid "Community notice"
+msgstr "Hinweis für die Gemeinschaft"
+
+#: includes/class-blocks.php:340
+msgid ""
+"Add a project announcement, maintenance notice or translation guideline here."
+msgstr ""
+"Hier ist Platz für eine Projektankündigung, einen Wartungshinweis oder "
+"Übersetzungsrichtlinien."
+
+#: includes/class-blocks.php:343
+msgid "Help and contact"
+msgstr "Hilfe und Kontakt"
+
+#: includes/class-blocks.php:344
+msgid "Need help?"
+msgstr "Brauchst du Hilfe?"
+
+#: includes/class-blocks.php:344
+msgid "Link to your translation guide, glossary and contact details here."
+msgstr ""
+"Verlinke hier deinen Übersetzungsleitfaden, das Glossar und die Kontaktdaten."
+
+#: includes/class-blocks.php:347
+msgid "Community footer"
+msgstr "Community-Footer"
+
+#: includes/class-blocks.php:348
+msgid ""
+"Translations are made possible by our community. Thank you for contributing."
+msgstr ""
+"Unsere Gemeinschaft macht diese Übersetzungen möglich. Danke fürs Mitmachen."
+
+#: includes/class-blocks.php:351
+msgid "Compact legal footer"
+msgstr "Kompakter rechtlicher Footer"
+
+#: includes/class-blocks.php:352
+msgid "Add your legal notice, privacy policy and contact links here."
+msgstr "Füge hier Links zu Impressum, Datenschutzerklärung und Kontakt ein."
+
+#: includes/class-commands.php:23
+msgid "GlotFrame: create a block layout"
+msgstr "GlotFrame: Block-Layout erstellen"
+
+#: includes/class-commands.php:29
+msgid "GlotFrame: edit the assigned header"
+msgstr "GlotFrame: Zugewiesenes Header-Layout bearbeiten"
+
+#: includes/class-commands.php:30
+msgid "GlotFrame: edit the assigned footer"
+msgstr "GlotFrame: Zugewiesenes Footer-Layout bearbeiten"
+
+#: includes/class-components.php:65
+msgid ""
+"GlotFrame update checks are unavailable. Reinstall a complete GlotFrame "
+"package to restore the updater."
+msgstr ""
+"Die GlotFrame-Updateprüfung ist nicht verfügbar. Installiere ein "
+"vollständiges GlotFrame-Paket erneut, um den Updater wiederherzustellen."
+
+#: includes/class-components.php:81
+msgid "The GlotFrame update package could not be verified."
+msgstr "Das GlotFrame-Updatepaket konnte nicht geprüft werden."
+
+#: includes/class-icons.php:12
+msgid "WordPress icon"
+msgstr "WordPress-Symbol"
+
+#: includes/class-icons.php:13
+msgid "Frame"
+msgstr "Rahmen"
+
+#: includes/class-icons.php:14
+msgid "Dialogue frame"
+msgstr "Dialograhmen"
+
+#: includes/class-icons.php:15
+msgid "Globe"
+msgstr "Globus"
+
+#: includes/class-icons.php:16 includes/class-navigation.php:99
+msgid "Languages"
+msgstr "Sprachen"
+
+#: includes/class-icons.php:17
+msgid "Dialogues"
+msgstr "Dialoge"
+
+#: includes/class-icons.php:18
+msgid "Brackets"
+msgstr "Klammern"
+
+#: includes/class-icons.php:20
+msgid "Panels"
+msgstr "Bereiche"
+
+#: includes/class-icons.php:22
+msgid "Layers"
+msgstr "Ebenen"
+
+#: includes/class-icons.php:23
+msgid "Project tree"
+msgstr "Projektbaum"
+
+#: includes/class-icons.php:24
+msgid "Folder"
+msgstr "Ordner"
+
+#: includes/class-icons.php:25
+msgid "Exchange"
+msgstr "Austausch"
+
+#: includes/class-icons.php:26
+msgid "Text lines"
+msgstr "Textzeilen"
+
+#: includes/class-icons.php:27
+msgid "Compass"
+msgstr "Kompass"
+
+#: includes/class-icons.php:28
+msgid "Connection"
+msgstr "Verbindung"
+
+#: includes/class-layout-admin.php:30
+msgid "Used as"
+msgstr "Verwendet als"
+
+#: includes/class-layout-admin.php:53 includes/class-site-health.php:22
+msgid "Not assigned"
+msgstr "Nicht zugeordnet"
+
+#: includes/class-layout-admin.php:62
+msgid "Not displayed: layout unavailable"
+msgstr "Keine Ausgabe: Layout nicht verfügbar"
+
+#. translators: %s: layout title.
+#: includes/class-layout-admin.php:132
+#, php-format
+msgid "Duplicate as draft: %s"
+msgstr "Als Entwurf duplizieren: %s"
+
+#: includes/class-layout-admin.php:133
+msgid "Duplicate as draft"
+msgstr "Als Entwurf duplizieren"
+
+#: includes/class-layout-admin.php:142
+msgid "You are not allowed to duplicate this layout."
+msgstr "Keine Berechtigung zum Duplizieren dieses Layouts."
+
+#: includes/class-layout-admin.php:149
+msgid "This layout cannot be duplicated."
+msgstr "Dieses Layout kann nicht dupliziert werden."
+
+#. translators: %s: source layout title.
+#: includes/class-layout-admin.php:153
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (Kopie)"
+
+#: includes/class-layout-admin.php:170
+msgid "The draft could not be created. The original layout is unchanged."
+msgstr ""
+"Der Entwurf konnte nicht erstellt werden. Das ursprüngliche Layout bleibt "
+"unverändert."
+
+#: includes/class-layout-rest-controller.php:15
+#: includes/class-layout-rest-controller.php:26
+msgid "You cannot access GlotFrame layouts."
+msgstr "Kein Zugriff auf GlotFrame-Layouts."
+
+#: includes/class-layouts.php:34
+msgid "GlotFrame layout"
+msgstr "GlotFrame-Layout"
+
+#: includes/class-layouts.php:35
+msgid "Add layout"
+msgstr "Layout hinzufügen"
+
+#: includes/class-layouts.php:50
+msgid "Add your header, footer or notice content."
+msgstr "Füge Inhalte für Header, Footer oder Hinweise hinzu."
+
+#: includes/class-navigation.php:58 templates/header.php:23
+msgid "Translation workspace"
+msgstr "Übersetzungsbereich"
+
+#: includes/class-navigation.php:76 includes/class-statistics.php:19
+#: includes/class-statistics.php:316 templates/header.php:34
+#: templates/statistics/projects.php:5 templates/statistics/projects.php:6
+msgid "Statistics"
+msgstr "Statistik"
+
+#: includes/class-navigation.php:85
+msgid "All projects"
+msgstr "Alle Projekte"
+
+#: includes/class-navigation.php:107
+msgid "My GlotPress profile"
+msgstr "Mein GlotPress-Profil"
+
+#: includes/class-navigation.php:115
+msgid "GlotPress preferences"
+msgstr "GlotPress-Einstellungen"
+
+#: includes/class-navigation.php:130
+msgid "GlotFrame settings"
+msgstr "GlotFrame-Einstellungen"
+
+#: includes/class-navigation.php:182
+msgid "User profile"
+msgstr "Benutzerprofil"
+
+#: includes/class-navigation.php:247
+msgid "New project"
+msgstr "Neues Projekt"
+
+#: includes/class-navigation.php:253
+msgid "Add subproject"
+msgstr "Unterprojekt hinzufügen"
+
+#: includes/class-presets.php:14
+msgid "White"
+msgstr "Weiß"
+
+#: includes/class-presets.php:28
+msgid "Night owl · Charcoal"
+msgstr "Nachteule · Anthrazit"
+
+#: includes/class-presets.php:42
+msgid "Midnight blue"
+msgstr "Nachtblau"
+
+#: includes/class-presets.php:56
+msgid "Sunlit sand"
+msgstr "Sonniger Sand"
+
+#: includes/class-presets.php:70
+msgid "Warm terracotta"
+msgstr "Warme Terrakotta"
+
+#: includes/class-presets.php:84
+msgid "Harbor blue"
+msgstr "Hafenblau"
+
+#: includes/class-presets.php:98
+msgid "Soft Bordeaux"
+msgstr "Mattes Bordeaux"
+
+#: includes/class-presets.php:112
+msgid "Sage green"
+msgstr "Sanftes Salbeigrün"
+
+#: includes/class-settings.php:136
+msgid "You are not allowed to change these settings."
+msgstr "Du darfst diese Einstellungen nicht ändern."
+
+#: includes/class-settings.php:162
+msgid ""
+"This URL path is reserved or already in use. The previous path has been kept."
+msgstr ""
+"Dieser URL-Pfad ist reserviert oder bereits belegt. Der bisherige Pfad wurde "
+"beibehalten."
+
+#. translators: %s: comma-separated layout region labels.
+#: includes/class-settings.php:172
+#, php-format
+msgid "Unavailable layout assignments cleared: %s."
+msgstr "Nicht verfügbare Layoutzuordnungen entfernt: %s."
+
+#. translators: %s: comma-separated layout region labels.
+#: includes/class-settings.php:172
+#, php-format
+msgid "Settings saved. Unavailable layout assignments cleared: %s."
+msgstr ""
+"Einstellungen gespeichert. Nicht verfügbare Layoutzuordnungen entfernt: %s."
+
+#: includes/class-shell.php:103 includes/class-statistics.php:394
+msgid "Root projects"
+msgstr "Stammprojekte"
+
+#: includes/class-shell.php:105 includes/class-statistics.php:399
+#: includes/class-statistics.php:412
+msgid "Changes requested"
+msgstr "Änderungen angefordert"
+
+#: includes/class-shell.php:106
+msgid "With warnings"
+msgstr "Mit Warnungen"
+
+#: includes/class-shell.php:107
+msgid "Hidden"
+msgstr "Ausgeblendet"
+
+#: includes/class-shell.php:108
+msgid "Low"
+msgstr "Niedrig"
+
+#: includes/class-shell.php:109
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/class-shell.php:110
+msgid "High"
+msgstr "Hoch"
+
+#: includes/class-shell.php:114
+msgid "Find a project…"
+msgstr "Projekt finden…"
+
+#: includes/class-shell.php:117 includes/class-shell.php:132
+msgid "No matching projects."
+msgstr "Keine passenden Projekte."
+
+#: includes/class-shell.php:118
+msgid "Project view"
+msgstr "Projektansicht"
+
+#: includes/class-shell.php:131
+msgid "Search projects…"
+msgstr "Projekte suchen…"
+
+#: includes/class-site-health.php:22 includes/class-site-health.php:60
+msgid "Available"
+msgstr "Verfügbar"
+
+#: includes/class-site-health.php:22 includes/class-site-health.php:37
+#: includes/class-site-health.php:38 includes/class-site-health.php:39
+#: includes/class-site-health.php:64 includes/class-site-health.php:151
+#: includes/class-site-health.php:154
+msgid "Unavailable"
+msgstr "Nicht verfügbar"
+
+#: includes/class-site-health.php:55
+msgid "Plugin version"
+msgstr "Plugin-Version"
+
+#: includes/class-site-health.php:59
+msgid "GlotPress integration"
+msgstr "GlotPress-Integration"
+
+#: includes/class-site-health.php:60
+msgid "Paused"
+msgstr "Pausiert"
+
+#: includes/class-site-health.php:63
+msgid "Active GlotPress version"
+msgstr "Aktive GlotPress-Version"
+
+#: includes/class-site-health.php:67
+msgid "Supported GlotPress series"
+msgstr "Unterstützte GlotPress-Serie"
+
+#: includes/class-site-health.php:71
+msgid "Workspace styling enabled"
+msgstr "Gestaltung des Übersetzungsbereichs eingeschaltet"
+
+#: includes/class-site-health.php:72 includes/class-site-health.php:88
+#: includes/class-site-health.php:92
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-site-health.php:72 includes/class-site-health.php:88
+#: includes/class-site-health.php:92
+msgid "No"
+msgstr "Nein"
+
+#: includes/class-site-health.php:79
+msgid "Layout assignments"
+msgstr "Layoutzuordnungen"
+
+#: includes/class-site-health.php:83
+msgid "Published layouts"
+msgstr "Veröffentlichte Layouts"
+
+#: includes/class-site-health.php:87
+msgid "Portal homepage configured"
+msgstr "Portal-Startseite eingerichtet"
+
+#: includes/class-site-health.php:91
+msgid "GlotPress toolbar enabled"
+msgstr "GlotPress-Toolbar eingeschaltet"
+
+#: includes/class-site-health.php:95
+msgid "Bundled Library version"
+msgstr "Mitgelieferte Library-Version"
+
+#: includes/class-site-health.php:99
+msgid "Active shared Library version"
+msgstr "Aktive gemeinsame Library-Version"
+
+#: includes/class-site-health.php:103
+msgid "Host updater version"
+msgstr "Updater-Version dieses Plugins"
+
+#: includes/class-site-health.php:109
+msgid ""
+"Local diagnostics for this website. Layout content, project names, file "
+"paths and credentials are not included."
+msgstr ""
+"Lokale Diagnose für diese Website. Layoutinhalte, Projektnamen, Dateipfade "
+"und Zugangsdaten werden nicht aufgenommen."
+
+#: includes/class-site-health.php:122
+msgid "GlotFrame availability"
+msgstr "Verfügbarkeit von GlotFrame"
+
+#: includes/class-site-health.php:134
+msgid "GlotFrame is ready for this website"
+msgstr "GlotFrame ist für diese Website bereit"
+
+#: includes/class-site-health.php:152
+msgid ""
+"Some assigned layouts are unavailable and are not displayed. Review their "
+"publication and assignment."
+msgstr ""
+"Einige zugeordnete Layouts sind nicht verfügbar und werden nicht angezeigt. "
+"Bitte Veröffentlichung und Zuordnung prüfen."
+
+#: includes/class-site-health.php:155
+msgid ""
+"The shared Library runtime is unavailable. Reinstall a complete GlotFrame "
+"package."
+msgstr ""
+"Die gemeinsame Library ist nicht verfügbar. Installiere ein vollständiges "
+"GlotFrame-Paket erneut."
+
+#: includes/class-site-health.php:158
+msgid ""
+"The host updater is unavailable. Reinstall a complete GlotFrame package."
+msgstr ""
+"Der Updater dieses Plugins ist nicht verfügbar. Installiere ein "
+"vollständiges GlotFrame-Paket erneut."
+
+#: includes/class-site-health.php:162
+msgid "Review the GlotFrame configuration"
+msgstr "GlotFrame-Konfiguration prüfen"
+
+#: includes/class-site-health.php:164
+msgid ""
+"The supported GlotPress runtime and host updater are available. Assigned "
+"layouts can be displayed."
+msgstr ""
+"Die unterstützte GlotPress-Umgebung und der Updater dieses Plugins sind "
+"verfügbar. Zugeordnete Layouts können angezeigt werden."
+
+#: includes/class-site-health.php:169
+msgid "Open GlotFrame settings"
+msgstr "GlotFrame-Einstellungen öffnen"
+
+#: includes/class-statistics.php:36
+msgid "All visible projects"
+msgstr "Alle sichtbaren Projekte"
+
+#: includes/class-statistics.php:291
+msgid "No translation tasks in this selection."
+msgstr "Keine Übersetzungsaufgaben in dieser Auswahl."
+
+#. translators: 1: completion percentage, 2: completed tasks, 3: total tasks.
+#: includes/class-statistics.php:295
+#, php-format
+msgid "%1$s%% complete · %2$s of %3$s translation tasks"
+msgstr "%1$s%% abgeschlossen · %2$s von %3$s Übersetzungsaufgaben"
+
+#. translators: 1: project count, 2: source-string count.
+#: includes/class-statistics.php:308
+#, php-format
+msgid "%1$s projects · %2$s source strings"
+msgstr "%1$s Projekte · %2$s Quellstrings"
+
+#: includes/class-statistics.php:319
+msgid "Statistics are unavailable or disabled."
+msgstr "Die Statistik ist nicht verfügbar oder ausgeschaltet."
+
+#: includes/class-statistics.php:353
+msgid "Project groups"
+msgstr "Projektgruppen"
+
+#: includes/class-statistics.php:354
+msgid "My contributions"
+msgstr "Meine Beiträge"
+
+#: includes/class-statistics.php:358
+msgid "Projects including descendants"
+msgstr "Projekte einschließlich Unterprojekten"
+
+#: includes/class-statistics.php:363
+msgid "Language"
+msgstr "Sprache"
+
+#: includes/class-statistics.php:364
+msgid "Translation-set variant"
+msgstr "Variante des Übersetzungssets"
+
+#: includes/class-statistics.php:366
+msgid "All"
+msgstr "Alle"
+
+#: includes/class-statistics.php:371
+msgid "Stored submission dates"
+msgstr "Gespeicherte Einreichungsdaten"
+
+#: includes/class-statistics.php:373
+msgid "All retained records"
+msgstr "Alle vorhandenen Datensätze"
+
+#: includes/class-statistics.php:374
+msgid "Last 7 days"
+msgstr "Letzte 7 Tage"
+
+#: includes/class-statistics.php:375
+msgid "Last 30 days"
+msgstr "Letzte 30 Tage"
+
+#: includes/class-statistics.php:376
+msgid "Last 90 days"
+msgstr "Letzte 90 Tage"
+
+#: includes/class-statistics.php:381
+msgid "Include authorized hidden strings"
+msgstr "Berechtigte ausgeblendete Strings einbeziehen"
+
+#: includes/class-statistics.php:383
+msgid "Apply filters"
+msgstr "Filter anwenden"
+
+#: includes/class-statistics.php:384
+msgid ""
+"No project selection means all visible projects. Counts use active source "
+"strings; hidden strings are excluded unless explicitly authorized. "
+"Translation tasks count each selected language/set separately."
+msgstr ""
+"Ohne Projektauswahl werden alle sichtbaren Projekte berücksichtigt. Gezählt "
+"werden aktive Quellstrings; ausgeblendete Strings bleiben ohne ausdrückliche "
+"Berechtigung ausgeschlossen. Übersetzungsaufgaben zählen jede ausgewählte "
+"Sprache und jedes Set getrennt."
+
+#: includes/class-statistics.php:386
+msgid "Projects"
+msgstr "Projekte"
+
+#: includes/class-statistics.php:387
+msgid "Source strings"
+msgstr "Quellstrings"
+
+#: includes/class-statistics.php:388
+msgid "Translation tasks"
+msgstr "Übersetzungsaufgaben"
+
+#: includes/class-statistics.php:389
+msgid "Waiting proposals"
+msgstr "Wartende Vorschläge"
+
+#: includes/class-statistics.php:390
+msgid "Fuzzy proposals"
+msgstr "Vage Vorschläge"
+
+#: includes/class-statistics.php:391
+msgid "Warnings"
+msgstr "Warnungen"
+
+#: includes/class-statistics.php:396
+msgid "Active projects"
+msgstr "Aktive Projekte"
+
+#: includes/class-statistics.php:397
+msgid "Inactive projects"
+msgstr "Inaktive Projekte"
+
+#: includes/class-statistics.php:398
+msgid "Attributed contributors"
+msgstr "Zugeordnete Übersetzer"
+
+#: includes/class-statistics.php:400
+msgid "Selected project scope"
+msgstr "Ausgewählter Projektumfang"
+
+#: includes/class-statistics.php:405
+msgid "My retained contributions"
+msgstr "Meine vorhandenen Beiträge"
+
+#: includes/class-statistics.php:405
+msgid ""
+"These are attributed records still present in the selected active projects, "
+"not a complete activity log or a quality ranking. Imports and removed "
+"records can affect the counts. The date filter applies only to your "
+"contribution records."
+msgstr ""
+"Gezählt werden dir zugeordnete Datensätze, die im ausgewählten aktiven "
+"Projektumfang noch vorhanden sind. Dies ist kein vollständiges "
+"Aktivitätsprotokoll und keine Qualitätsbewertung. Importe und gelöschte "
+"Datensätze können die Zahlen beeinflussen. Der Datumsfilter gilt nur für "
+"deine Beiträge."
+
+#: includes/class-statistics.php:407
+msgid "Current"
+msgstr "Aktuell"
+
+#: includes/class-statistics.php:408 includes/class-statistics.php:449
+msgid "Waiting"
+msgstr "Wartend"
+
+#: includes/class-statistics.php:409
+msgid "Fuzzy"
+msgstr "Vage"
+
+#: includes/class-statistics.php:410
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#: includes/class-statistics.php:411
+msgid "Older versions"
+msgstr "Ältere Versionen"
+
+#: includes/class-statistics.php:415
+msgid "Recently submitted records"
+msgstr "Zuletzt eingereichte Datensätze"
+
+#. translators: %s: stored proposal date in UTC.
+#: includes/class-statistics.php:437
+#, php-format
+msgid "Oldest stored waiting proposal: %s"
+msgstr "Ältester gespeicherter wartender Vorschlag: %s"
+
+#: includes/class-statistics.php:439
+msgid "Projects needing attention"
+msgstr "Projekte mit Handlungsbedarf"
+
+#: includes/class-statistics.php:439
+msgid ""
+"The completion bars use source-string-weighted totals. Proposal counts and "
+"warnings can overlap and are not slices of the completion chart. Work links "
+"show up to five matching sets per project; select a language to narrow the "
+"list."
+msgstr ""
+"Die Fortschrittsbalken gewichten nach der Anzahl der Quellstrings. "
+"Vorschläge und Warnungen können sich überschneiden und sind keine Teilmengen "
+"dieses Diagramms. Arbeitslinks zeigen bis zu fünf passende Sets pro Projekt; "
+"mit einer Sprachauswahl lässt sich die Liste eingrenzen."
+
+#: includes/class-statistics.php:439
+msgid "Completion"
+msgstr "Fortschritt"
+
+#: includes/class-statistics.php:439
+msgid "Remaining tasks"
+msgstr "Offene Aufgaben"
+
+#: includes/class-statistics.php:439
+msgid "Work queue"
+msgstr "Weiterarbeiten"
+
+#: includes/class-statistics.php:451
+msgid "Untranslated"
+msgstr "Nicht übersetzt"
+
+#: includes/class-statistics.php:454
+msgid "Project and language matrix"
+msgstr "Projekt- und Sprachenmatrix"
+
+#: includes/class-statistics.php:454
+msgid ""
+"Up to 12 language columns are shown. Select a language above to inspect any "
+"other language. Empty cells mean no matching set."
+msgstr ""
+"Angezeigt werden bis zu zwölf Sprachspalten. Über die Sprachauswahl lässt "
+"sich jede weitere Sprache einzeln betrachten. Leere Zellen bedeuten, dass "
+"kein passendes Set vorhanden ist."
+
+#: includes/class-statistics.php:465
+msgid "Statistics pages"
+msgstr "Statistikseiten"
+
+#. translators: %s: snapshot generation date and time.
+#: includes/class-statistics.php:473
+msgid "Current snapshot; no historical trend is inferred."
+msgstr ""
+"Aktuelle Momentaufnahme; daraus wird kein historischer Verlauf abgeleitet."
+
+#. translators: %s: snapshot generation date and time.
+#: includes/class-statistics.php:473
+#, php-format
+msgid "Updated: %s"
+msgstr "Stand: %s"
+
+#: includes/updater-translations.php:13
+msgid "Private mode must be boolean."
+msgstr "Der Private-Modus muss ein boolescher Wert sein."
+
+#: includes/updater-translations.php:15
+msgid "Invalid authentication provider."
+msgstr "Ungültiger Authentifizierungsanbieter."
+
+#: includes/updater-translations.php:17
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+"Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
+
+#: includes/updater-translations.php:19
+msgid "Invalid GitHub repository URL."
+msgstr "Ungültige GitHub-Repository-URL."
+
+#: includes/updater-translations.php:21
+msgid ""
+"The private update could not be authorized. Check the repository credentials "
+"and refresh updates."
+msgstr ""
+"Das private Update konnte nicht autorisiert werden. Prüfe die Repository-"
+"Zugangsdaten und suche erneut nach Updates."
+
+#: includes/updater-translations.php:23
+msgid "Could not create the update download file."
+msgstr "Die Datei für den Update-Download konnte nicht erstellt werden."
+
+#: includes/updater-translations.php:25
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+"Der Download des privaten Updates ist fehlgeschlagen. Prüfe die Zugangsdaten "
+"und versuche es erneut."
+
+#: includes/updater-translations.php:27
+msgid "Could not access the update filesystem."
+msgstr "Auf das Dateisystem für das Update konnte nicht zugegriffen werden."
+
+#: includes/updater-translations.php:29
+msgid "GitHub release does not contain the plugin main file."
+msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
+
+#: includes/updater-translations.php:31
+msgid "Could not prepare the GitHub release package."
+msgstr "Das GitHub-Release-Paket konnte nicht vorbereitet werden."
+
+#: includes/updater-translations.php:33
+msgid "See the release on GitHub."
+msgstr "Sieh dir den Release auf GitHub an."
+
+#: includes/updater-translations.php:35
+msgid ""
+"Git Updater is active. If a deckerweb installation or update fails, "
+"temporarily deactivate Git Updater and retry. Reactivate it afterwards if "
+"other plugins or themes need it. Only leave it disabled when those "
+"extensions have another reliable update provider."
+msgstr ""
+"Git Updater ist aktiv. Wenn eine deckerweb-Installation oder ein Update "
+"fehlschlägt, deaktiviere Git Updater vorübergehend und versuche es erneut. "
+"Aktiviere ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. "
+"Lass ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen "
+"zuverlässigen Updateweg besitzen."
+
+#: includes/updater-translations.php:37
+msgid "Manage installed plugins"
+msgstr "Installierte Plugins verwalten"
+
+#: includes/updater-translations.php:39
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+#: includes/updater-translations.php:41
+msgid "Permission denied."
+msgstr "Zugriff verweigert."
+
+#: includes/updater-translations.php:43
+msgid ""
+"Public catalog callbacks require both providers and cannot be used in "
+"private mode."
+msgstr ""
+"Öffentliche Katalog-Callbacks benötigen beide Anbieter und können nicht im "
+"Private-Modus verwendet werden."
+
+#: includes/updater-translations.php:45
+msgid "The approved release could not be verified."
+msgstr "Die freigegebene Version konnte nicht geprüft werden."
+
+#: includes/updater-translations.php:47
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+"Die freigegebene Version hat sich geändert. Suche zuerst erneut nach Updates."
+
+#: templates/header.php:17
+msgid "Skip to translations"
+msgstr "Zu den Übersetzungen springen"
+
+#: templates/statistics/projects.php:8
+msgid "Translation statistics"
+msgstr "Übersetzungsstatistik"
+
+#: blocks/current-project/block.json
+msgctxt "block title"
+msgid "Current project"
+msgstr "Aktuelles Projekt"
+
+#: blocks/progress/block.json
+msgctxt "block title"
+msgid "Translation progress"
+msgstr "Übersetzungsfortschritt"
+
+#: blocks/project-actions/block.json
+msgctxt "block title"
+msgid "Project actions"
+msgstr "Projektaktionen"
+
+#: blocks/project-list/block.json
+msgctxt "block title"
+msgid "Project overview"
+msgstr "Projektübersicht"
+
+#: blocks/statistics/block.json
+msgctxt "block title"
+msgid "Project-group statistics"
+msgstr "Projektgruppenstatistik"
+
+msgid "%s is installed but inactive. Activate it first."
+msgstr "%s ist installiert, aber inaktiv. Bitte zuerst aktivieren."
+
+msgid "%s is missing. Install and activate it first."
+msgstr "%s fehlt. Bitte zuerst installieren und aktivieren."
+
+msgid "%s must be network activated first."
+msgstr "%s muss zuerst netzwerkweit aktiviert werden."
+
+msgid "%s supports activation per site only."
+msgstr "%s unterstützt nur die Aktivierung je Website."
+
+msgid "Action cancelled."
+msgstr "Vorgang abgebrochen."
+
+msgid "Activate"
+msgstr "Aktivieren"
+
+msgid ""
+"Activate Bricks QuickNav per site after selecting the Bricks parent or child "
+"theme."
+msgstr ""
+"Bricks QuickNav bitte je Website aktivieren, nachdem das Bricks-Theme oder "
+"ein Child-Theme ausgewählt wurde."
+
+msgid "Activating…"
+msgstr "Wird aktiviert…"
+
+msgid "Active filters: "
+msgstr "Aktive Filter: "
+
+msgid "Admin"
+msgstr "Administration"
+
+msgid "Affected features remain paused until their requirements are met."
+msgstr ""
+"Betroffene Funktionen pausieren, bis ihre Voraussetzungen erfüllt sind."
+
+msgid "Already active"
+msgstr "Bereits aktiv"
+
+msgid "Already up to date."
+msgstr "Bereits aktuell."
+
+msgid "Another action for this plugin is running. Please wait."
+msgstr "Für dieses Plugin läuft bereits eine Aktion. Bitte warten."
+
+msgid ""
+"Another component interrupted the request. If Git Updater is active, "
+"temporarily deactivate it and retry."
+msgstr ""
+"Eine andere Komponente hat die Anfrage unterbrochen. Falls Git Updater aktiv "
+"ist, deaktiviere ihn vorübergehend und wiederhole den Vorgang."
+
+msgid ""
+"Another updater provides a different release. Refresh updates before "
+"continuing."
+msgstr ""
+"Ein anderer Updater bietet einen abweichenden Release an. Bitte die "
+"Updateinformationen vor dem Fortfahren aktualisieren."
+
+msgid "Apr"
+msgstr "Apr"
+
+msgid "April"
+msgstr "April"
+
+msgid "Archive contains too many files."
+msgstr "Das Archiv enthält zu viele Dateien."
+
+msgid "Archive symlinks are not permitted."
+msgstr "Symbolische Verknüpfungen sind im Archiv nicht erlaubt."
+
+msgid "As of "
+msgstr "Stand: "
+
+msgid "Aug"
+msgstr "Aug"
+
+msgid "August"
+msgstr "August"
+
+msgid "Back to deckerweb"
+msgstr "Zurück zu deckerweb"
+
+msgid "Builder"
+msgstr "Builder"
+
+msgid "Bundled catalog"
+msgstr "Mitgelieferter Katalog"
+
+msgid "Cached or bundled catalog"
+msgstr "Gespeicherter oder mitgelieferter Katalog"
+
+msgid "Cannot create temporary file."
+msgstr "Temporäre Datei konnte nicht erstellt werden."
+
+msgid "Cannot create verified archive."
+msgstr "Geprüftes Archiv konnte nicht erstellt werden."
+
+msgid "Cannot finalize archive."
+msgstr "Archiv konnte nicht abgeschlossen werden."
+
+msgid "Cannot normalize archive."
+msgstr "Archiv konnte nicht aufbereitet werden."
+
+msgid "Cannot read archive entry."
+msgstr "Archiveintrag konnte nicht gelesen werden."
+
+msgid "Catalog URL"
+msgstr "Katalog-URL"
+
+msgid "Catalog refreshed."
+msgstr "Katalog aktualisiert."
+
+msgid "Check status"
+msgstr "Status prüfen"
+
+msgid "Checking status…"
+msgstr "Status wird geprüft…"
+
+msgid "Commerce"
+msgstr "Commerce"
+
+msgid "Compatible additions only"
+msgstr "Nur passende Ergänzungen"
+
+msgid "Content"
+msgstr "Inhalte"
+
+msgid "Copied."
+msgstr "Kopiert."
+
+msgid "Copy diagnostic information"
+msgstr "Diagnoseinformationen kopieren"
+
+msgid "Dec"
+msgstr "Dez"
+
+msgid "December"
+msgstr "Dezember"
+
+msgid "Delete Library settings when removing the last host plugin"
+msgstr ""
+"Library-Einstellungen beim Entfernen des letzten Host-Plugins ebenfalls "
+"löschen"
+
+msgid "Details & requirements"
+msgstr "Details & Voraussetzungen"
+
+msgid "Discover more plugins by deckerweb"
+msgstr "Weitere Plugins von deckerweb entdecken"
+
+msgid "Discover randomly"
+msgstr "Zufällig entdecken"
+
+msgid "Dismiss permanently"
+msgstr "Dauerhaft schließen"
+
+msgid "Done. The plugin is active."
+msgstr "Erledigt. Das Plugin ist aktiv."
+
+msgid "Enter a catalog URL first."
+msgstr "Bitte zuerst eine Katalog-URL eintragen."
+
+msgid "Expanded archive is too large."
+msgstr "Das entpackte Archiv ist zu groß."
+
+msgid "F j, Y"
+msgstr "j. F Y"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "Filesystem credentials are required."
+msgstr "Zugangsdaten für das Dateisystem werden benötigt."
+
+msgid ""
+"Filesystem credentials are required. Use the catalog with JavaScript enabled "
+"or the native Plugins screen."
+msgstr ""
+"Dateisystem-Zugangsdaten sind erforderlich. Bitte den Katalog mit "
+"aktiviertem JavaScript oder die WordPress-Pluginverwaltung verwenden."
+
+msgid "Filter"
+msgstr "Filtern"
+
+msgid "Fits my installation"
+msgstr "Passt zu meiner Installation"
+
+msgid "Fixed"
+msgstr "Behoben"
+
+msgid "Fri"
+msgstr "Fr"
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "GitHub Stars"
+msgstr "GitHub-Sterne"
+
+msgid "Hide catalog"
+msgstr "Katalog ausblenden"
+
+msgid "Improved"
+msgstr "Verbessert"
+
+msgid "Install and activate this plugin in the network admin."
+msgstr "Dieses Plugin bitte im Netzwerk-Admin installieren und aktivieren."
+
+msgid "Install deckerweb plugin"
+msgstr "deckerweb-Plugin installieren"
+
+msgid "Install now"
+msgstr "Jetzt installieren"
+
+msgid "Installation cancelled."
+msgstr "Installation abgebrochen."
+
+msgid "Installation failed."
+msgstr "Installation fehlgeschlagen."
+
+msgid "Installed"
+msgstr "Installiert"
+
+msgid "Installed · inactive"
+msgstr "Installiert · inaktiv"
+
+msgid "Installed: "
+msgstr "Installiert: "
+
+msgid "Installing…"
+msgstr "Wird installiert…"
+
+msgid "Invalid ZIP archive."
+msgstr "Ungültiges ZIP-Archiv."
+
+msgid "Invalid approval flag."
+msgstr "Ungültige Freigabeangabe."
+
+msgid "Invalid catalog field: "
+msgstr "Ungültiges Katalogfeld: "
+
+msgid "Invalid catalog revision."
+msgstr "Ungültiger Katalogstand."
+
+msgid "Invalid catalog schema."
+msgstr "Ungültiges Katalogformat."
+
+msgid "Invalid catalog timestamp."
+msgstr "Ungültiger Katalogzeitpunkt."
+
+msgid "Invalid dependencies."
+msgstr "Ungültige Abhängigkeiten."
+
+msgid "Invalid dependency URL."
+msgstr "Ungültige URL einer Abhängigkeit."
+
+msgid "Invalid dependency metadata."
+msgstr "Ungültige Angaben zu Abhängigkeiten."
+
+msgid "Invalid display field."
+msgstr "Ungültiges Anzeigefeld."
+
+msgid "Invalid icon color."
+msgstr "Ungültige Icon-Farbe."
+
+msgid "Invalid icon label."
+msgstr "Ungültiges Icon-Kürzel."
+
+msgid "Invalid identity or release metadata."
+msgstr "Ungültige Plugin- oder Release-Angaben."
+
+msgid "Invalid local icon."
+msgstr "Ungültiges lokales Icon."
+
+msgid "Invalid network policy."
+msgstr "Ungültige Netzwerkregel."
+
+msgid "Invalid network requirement."
+msgstr "Ungültige Netzwerkanforderung."
+
+msgid "Invalid platform version."
+msgstr "Ungültige Plattformversion."
+
+msgid "Invalid plugin series."
+msgstr "Ungültige Plugin-Serie."
+
+msgid "Invalid sort order."
+msgstr "Ungültige Sortierung."
+
+msgid "Invalid star count."
+msgstr "Ungültige Anzahl der GitHub-Sterne."
+
+msgid "Invalid stars date."
+msgstr "Ungültiges Datum der GitHub-Sterne."
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "Last successful check: "
+msgstr "Zuletzt erfolgreich geprüft: "
+
+msgid "Library"
+msgstr "Library"
+
+msgid "Library changelog"
+msgstr "Library-Änderungsverlauf"
+
+msgid "Library settings"
+msgstr "Library-Einstellungen"
+
+msgid "Library settings saved."
+msgstr "Library-Einstellungen gespeichert."
+
+msgid "Manage Content"
+msgstr "Inhalte verwalten"
+
+msgid "Mar"
+msgstr "Mär"
+
+msgid "March"
+msgstr "März"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "Misc"
+msgstr "Sonstiges"
+
+msgid "Missing display text."
+msgstr "Anzeigetext fehlt."
+
+msgid "Missing plugin header."
+msgstr "Plugin-Header fehlt."
+
+msgid "Mon"
+msgstr "Mo"
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "More by deckerweb"
+msgstr "Mehr von deckerweb"
+
+msgid "Multisite"
+msgstr "Multisite"
+
+msgid "Network activate"
+msgstr "Netzwerkweit aktivieren"
+
+msgid "Network active"
+msgstr "Netzwerkweit aktiv"
+
+msgid "Network permission denied."
+msgstr "Keine Berechtigung für das Netzwerk."
+
+msgid "New"
+msgstr "Neu"
+
+msgid "No approved plugins match this selection."
+msgstr "Keine freigegebenen Plugins passen zu dieser Auswahl."
+
+msgid "Not installed. You can try again."
+msgstr "Nicht installiert. Ein erneuter Versuch ist möglich."
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "November"
+msgstr "November"
+
+msgid "Oct"
+msgstr "Okt"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid ""
+"Off by default. Applies only when no other host is installed, including "
+"inactive hosts. Removes Library settings, installation records and "
+"introduction status. Installed plugins, their content and other plugin "
+"settings remain unchanged. Network data is shared across sites."
+msgstr ""
+"Standardmäßig ausgeschaltet. Gilt nur, wenn kein weiterer Host installiert "
+"ist, auch kein deaktivierter. Entfernt Library-Einstellungen, "
+"Installationszuordnung und den Status des Einführungshinweises. Installierte "
+"Plugins, deren Inhalte und Einstellungen anderer Plugins bleiben erhalten. "
+"Netzwerkdaten werden gemeinsam von den Websites genutzt."
+
+msgid "Online catalog"
+msgstr "Online-Katalog"
+
+msgid ""
+"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
+"requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+"Nur HTTPS auf raw.githubusercontent.com/deckerweb. Der Server sieht die "
+"anfragende IP-Adresse. Beim Installieren eines Releases wird GitHub "
+"kontaktiert."
+
+msgid "Only approved releases"
+msgstr "Nur freigegebene Releases"
+
+msgid "Open catalog"
+msgstr "Katalog öffnen"
+
+msgid ""
+"Optional. The bundled catalog works immediately. Catalog requests are cached "
+"for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+"Optional. Der mitgelieferte Katalog funktioniert sofort. Katalogabfragen "
+"werden 24 Stunden zwischengespeichert. Keine Website-URL, Plugin-Liste oder "
+"Nutzungsdaten werden übertragen."
+
+msgid "PHP ZIP support is required."
+msgstr "PHP-ZIP-Unterstützung wird benötigt."
+
+msgid "POST required."
+msgstr "Eine POST-Anfrage ist erforderlich."
+
+msgid "Permission denied. Reload the page and check your permissions."
+msgstr "Zugriff verweigert. Lade die Seite neu und prüfe deine Berechtigungen."
+
+msgid "Planned: "
+msgstr "Geplant: "
+
+msgid "Plugin identity or version does not match the catalog."
+msgstr "Plugin oder Version stimmt nicht mit dem Katalog überein."
+
+msgid "Plugin is not installed."
+msgstr "Das Plugin ist nicht installiert."
+
+msgid "Plugin series"
+msgstr "Plugin-Serien"
+
+msgid "Product website"
+msgstr "Produktwebsite"
+
+msgid "Recently updated"
+msgstr "Zuletzt aktualisiert"
+
+msgid "Refresh catalog"
+msgstr "Katalog aktualisieren"
+
+msgid ""
+"Release 1.0.0 is being prepared. Installation will be available after "
+"package verification."
+msgstr ""
+"Release 1.0.0 wird vorbereitet. Die Installation ist nach Prüfung des Pakets "
+"verfügbar."
+
+msgid ""
+"Release checksum is verified before installation. Activation is a separate "
+"step."
+msgstr ""
+"Vor der Installation wird die Release-Prüfsumme geprüft. Die Aktivierung "
+"erfolgt separat."
+
+msgid "Release in preparation"
+msgstr "Release in Vorbereitung"
+
+msgid "Release must contain exactly the approved plugin directory."
+msgstr "Das Release muss genau das freigegebene Plugin-Verzeichnis enthalten."
+
+msgid "Remove filter: "
+msgstr "Filter entfernen: "
+
+msgid "Repository & documentation"
+msgstr "Repository & Dokumentation"
+
+msgid ""
+"Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+"Die gezeigten Voraussetzungen sind bis zur Prüfung des stabilen Releases "
+"vorläufig."
+
+msgid "Requires PHP %s or newer."
+msgstr "Benötigt PHP %s oder neuer."
+
+msgid "Requires WordPress %s or newer."
+msgstr "Benötigt WordPress %s oder neuer."
+
+msgid "Requires a WordPress Multisite network."
+msgstr "Benötigt ein WordPress-Multisite-Netzwerk."
+
+msgid "Reset filters"
+msgstr "Filter zurücksetzen"
+
+msgid "Reset view"
+msgstr "Ansicht zurücksetzen"
+
+msgid "Retrieve approved catalog updates online"
+msgstr "Katalogfreigaben online aktualisieren"
+
+msgid "Sat"
+msgstr "Sa"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+msgid "Scripts"
+msgstr "Scripte"
+
+msgid "Search this catalog"
+msgstr "Diesen Katalog durchsuchen"
+
+msgid "Select and copy the text."
+msgstr "Text markieren und kopieren."
+
+msgid "Selected by deckerweb · Installed from GitHub releases"
+msgstr "Von deckerweb ausgewählt · Installation aus GitHub-Releases"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "September"
+msgstr "September"
+
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+msgid "Shop"
+msgstr "Shop"
+
+msgid "Show deckerweb under Add Plugins"
+msgstr "deckerweb unter „Plugins hinzufügen“ anzeigen"
+
+msgid ""
+"Shows plugins whose platform and dependency requirements are met in this "
+"site or network. Without this filter, plugins with missing requirements "
+"remain visible."
+msgstr ""
+"Zeigt Plugins, deren Plattform- und Abhängigkeitsanforderungen auf dieser "
+"Website oder im Netzwerk erfüllt sind. Ohne diesen Filter bleiben Plugins "
+"mit fehlenden Voraussetzungen sichtbar."
+
+msgid "Shuffle again"
+msgstr "Neu mischen"
+
+msgid "Small plugins. Practical improvements."
+msgstr "Kleine Plugins. Konkrete Verbesserungen."
+
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+msgid "Source: GitHub"
+msgstr "Quelle: GitHub"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Sun"
+msgstr "So"
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid "Technical information"
+msgstr "Technische Informationen"
+
+msgid "The GitHub release could not be downloaded."
+msgstr "Das GitHub-Release konnte nicht heruntergeladen werden."
+
+msgid "The action is still running. Check its status again."
+msgstr "Die Aktion läuft noch. Bitte den Status erneut prüfen."
+
+msgid "The approved package could not be verified."
+msgstr "Das freigegebene Paket konnte nicht geprüft werden."
+
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr "Die Katalog-URL ist keine erlaubte eigene HTTPS-Quelle."
+
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+"Der Katalog konnte nicht geprüft werden. Bitte später erneut versuchen."
+
+msgid "The catalog is disabled."
+msgstr "Der Katalog ist deaktiviert."
+
+msgid "The catalog is hidden."
+msgstr "Der Katalog ist ausgeblendet."
+
+msgid ""
+"The deckerweb catalog could not load. Check platform requirements and the "
+"complete Library integration in the host plugin."
+msgstr ""
+"Der deckerweb-Katalog konnte nicht geladen werden. Bitte PHP-/WordPress-"
+"Anforderungen und die vollständige Library-Einbindung im Host-Plugin prüfen."
+
+msgid ""
+"The installed plugin identity could not be verified for this catalog update."
+msgstr ""
+"Die Identität des installierten Plugins konnte für dieses Katalogupdate "
+"nicht bestätigt werden."
+
+msgid ""
+"The online catalog is unavailable. Showing cached or bundled entries; online "
+"approval is checked again before installation."
+msgstr ""
+"Der Online-Katalog ist nicht erreichbar. Angezeigt wird der gespeicherte "
+"oder mitgelieferte Katalog; vor der Installation wird die Online-Freigabe "
+"erneut geprüft."
+
+msgid "The online catalog source is not trusted."
+msgstr "Die Online-Katalogquelle ist nicht vertrauenswürdig."
+
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+"Die Prüfsumme des Releases stimmt nicht überein. Installation gestoppt."
+
+msgid ""
+"The request could not be completed. Check the plugin status before trying "
+"again."
+msgstr ""
+"Die Anfrage konnte nicht abgeschlossen werden. Vor einem erneuten Versuch "
+"den Plugin-Status prüfen."
+
+msgid "The requirements below describe the offered release."
+msgstr ""
+"Die folgenden Voraussetzungen beziehen sich auf den angebotenen Release."
+
+msgid "The update has not been confirmed. You can try again."
+msgstr ""
+"Die Aktualisierung wurde nicht bestätigt. Du kannst es erneut versuchen."
+
+msgid ""
+"These details contain component versions and catalog status, without "
+"credentials or site content."
+msgstr ""
+"Diese Angaben enthalten Komponentenversionen und den Katalogstatus, keine "
+"Zugangsdaten oder Website-Inhalte."
+
+msgid "This catalog requires a newer Library."
+msgstr "Dieser Katalog benötigt eine neuere Library."
+
+msgid ""
+"This plugin directory already exists. Use the installed plugin; it will not "
+"be overwritten."
+msgstr ""
+"Dieses Plugin-Verzeichnis existiert bereits. Bitte das installierte Plugin "
+"verwenden; es wird nicht überschrieben."
+
+msgid "This release is no longer approved."
+msgstr "Dieses Release ist nicht mehr freigegeben."
+
+msgid "This release is not approved."
+msgstr "Dieses Release ist nicht freigegeben."
+
+msgid "Thu"
+msgstr "Do"
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Tools"
+msgstr "Werkzeuge"
+
+msgid "Tue"
+msgstr "Di"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "Unsafe archive path."
+msgstr "Unsicherer Archivpfad."
+
+msgid "Untrusted release URL."
+msgstr "Nicht vertrauenswürdige Release-URL."
+
+msgid "Update %1$s to version %2$s or newer."
+msgstr "%1$s bitte auf Version %2$s oder neuer aktualisieren."
+
+msgid "Update available"
+msgstr "Update verfügbar"
+
+msgid "Update failed."
+msgstr "Aktualisierung fehlgeschlagen."
+
+msgid "Update to %s"
+msgstr "Auf %s aktualisieren"
+
+msgid "Updated"
+msgstr "Aktualisiert"
+
+msgid "Updating…"
+msgstr "Wird aktualisiert…"
+
+msgid "View plugins"
+msgstr "Plugins ansehen"
+
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+msgid "Wed"
+msgstr "Mi"
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid ""
+"You already use one of my plugins. Find selected additions in the deckerweb "
+"tab."
+msgstr ""
+"Du nutzt bereits ein Plugin von mir. Ausgewählte Ergänzungen findest du im "
+"deckerweb-Tab."

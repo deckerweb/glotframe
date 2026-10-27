@@ -1,0 +1,24 @@
+.wp-admin .gf-statistics{--gf-surface:#fff;--gf-field:#fff;--gf-subtle:#f0f0f1;--gf-text:#1d2327;--gf-muted:#50575e;--gf-accent:#2271b1;--gf-on-accent:#fff;--gf-border:#8c8f94}
+.gf-statistics{color:var(--gf-text,#1d2327);max-width:100%;font-size:1rem;line-height:1.6}
+.gf-stat-filters{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;padding:20px;border:1px solid var(--gf-border,#8c8f94);border-radius:10px;background:var(--gf-subtle,#f0f0f1);margin-block:20px}
+.gf-stat-filters>label{display:grid;gap:6px;min-width:140px;max-width:100%;font-size:.9em;font-weight:600}
+.gf-stat-filters select,.gf-stat-filters input{font:inherit;max-width:100%;background:var(--gf-field,#fff);color:var(--gf-text,#1d2327);border:1px solid var(--gf-border,#8c8f94);border-radius:6px;padding:8px}
+.gf-stat-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:20px 0 28px}
+.gf-stat-cards>div{padding:18px;border:1px solid var(--gf-border,#8c8f94);border-radius:10px;background:var(--gf-field,#fff);min-width:0}
+.gf-stat-cards dt{overflow-wrap:normal;word-break:normal;hyphens:auto;font-size:.85em;font-weight:600;line-height:1.4;color:var(--gf-muted,#50575e)}.gf-stat-cards dd{margin:8px 0 0;font-size:1.8em;font-weight:700;line-height:1.2}
+.gf-stat-chart{margin:12px 0;min-width:140px}.gf-stat-chart svg{display:block;width:100%;height:22px}.gf-stat-chart figcaption{margin-block-start:8px;font-size:.85em;line-height:1.5}
+.gf-chart-rest{fill:var(--gf-subtle,#e7ebef)}.gf-chart-current{fill:var(--gf-accent,#2271b1)}
+.gf-stat-scroll{overflow:auto;margin-block:20px}.gf-stat-table{width:100%;border-collapse:collapse;background:var(--gf-field,#fff)}
+.gf-stat-table :is(th,td){text-align:start;vertical-align:top;padding:14px 16px;border:1px solid var(--gf-border,#8c8f94);min-width:80px}
+.gf-stat-table th{font-weight:600}.gf-stat-table td a{display:inline-block;margin:2px 10px 6px 0}.gf-stat-note{font-size:.85em;color:var(--gf-muted,#50575e);margin-block:16px}
+.gf-stat-matrix td{text-align:center;font-variant-numeric:tabular-nums}.gf-stat-matrix .gf-heat-0{background:var(--gf-field,#fff)}.gf-stat-matrix .gf-heat-1{background:color-mix(in srgb,var(--gf-accent,#2271b1) 6%,var(--gf-field,#fff))}.gf-stat-matrix .gf-heat-2{background:color-mix(in srgb,var(--gf-accent,#2271b1) 10%,var(--gf-field,#fff))}.gf-stat-matrix .gf-heat-3{background:color-mix(in srgb,var(--gf-accent,#2271b1) 15%,var(--gf-field,#fff))}.gf-stat-matrix .gf-heat-4{background:color-mix(in srgb,var(--gf-accent,#2271b1) 20%,var(--gf-field,#fff))}
+.gf-stat-pages{display:flex;flex-wrap:wrap;gap:12px;margin-block:20px}.gf-stat-pages>*{padding:6px 12px;border:1px solid var(--gf-border,#8c8f94);border-radius:5px}
+.gf-stat-filters .ts-wrapper{width:min(360px,100%);min-width:230px}.gf-stat-filters .ts-control,.gf-stat-filters .ts-dropdown{background:var(--gf-field,#fff);color:var(--gf-text,#1d2327);border-color:var(--gf-border,#8c8f94);font:inherit}
+.gf-stat-filters .ts-control{gap:5px;padding:8px;min-height:42px}.gf-stat-filters .ts-control>input{font:inherit;color:var(--gf-text,#1d2327);background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;width:auto!important;min-height:20px;min-width:100px}
+.gf-stat-filters .ts-control .item{background:var(--gf-subtle,#f0f0f1);color:var(--gf-text,#1d2327)}.gf-stat-filters .ts-dropdown .active{background:var(--gf-accent,#2271b1);color:var(--gf-on-accent,#fff)}
+.gf-statistics :focus-visible{outline:3px solid var(--gf-accent,#2271b1);outline-offset:3px}
+@media(max-width:782px){.gf-stat-filters{padding:14px}.gf-stat-filters>label{width:100%}.gf-stat-filters .ts-wrapper{min-width:0;width:100%}.gf-stat-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(forced-colors:active){.gf-chart-current{fill:Highlight}.gf-chart-rest{fill:Canvas;stroke:CanvasText;stroke-width:.1}}
+
+.gf-stat-filters>label.gf-checkbox-row{display:grid;grid-template-columns:max-content minmax(0,1fr);align-items:start;column-gap:12px;row-gap:0;line-height:1.65}.gf-stat-filters>label.gf-checkbox-row>input[type=checkbox]{padding:0;margin:.22em 0 0;min-height:0}.gf-stat-filters>label.gf-checkbox-row>span{min-width:0}
+@media(max-width:782px){.gf-stat-filters>label.gf-checkbox-row>input[type=checkbox]{margin-top:0}}
