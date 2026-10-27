@@ -1,9 +1,9 @@
-# Copyright (C) 2026 David Decker – DECKERWEB
+# Copyright (C) 2017–2026 David Decker – DECKERWEB
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: GlotFrame 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/glotframe\n"
+"Report-Msgid-Bugs-To: https://github.com/deckerweb/glotframe/issues\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
