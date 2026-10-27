@@ -17,7 +17,7 @@ A deckerweb tool for anyone who wants to shape GlotPress more easily and use it 
 
 **Version 1.0.0** · WordPress 6.4+ · PHP 8.3+ · GlotPress 4.x
 
-[Deutsch](README-de.md) · [Wiki](https://github.com/deckerweb/glotframe/wiki) · [Guide](docs/GUIDE.md) · [FAQ](docs/FAQ.md)
+[Deutsch](https://github.com/deckerweb/glotframe/blob/main/README-de.md) · [Wiki](https://github.com/deckerweb/glotframe/wiki) · [Guide](https://github.com/deckerweb/glotframe/blob/main/docs/GUIDE.md) · [FAQ](https://github.com/deckerweb/glotframe/blob/main/docs/FAQ.md)
 
 Contents: [About](#about) · [At a Glance](#at-a-glance) · [Getting started](#getting-started) · [Feature highlights](#feature-highlights) · [Frequently asked questions](#frequently-asked-questions) · [Screenshots](#screenshots) · [Changelog](#changelog)
 
@@ -107,21 +107,21 @@ Yes. Each website manages its own settings and layouts, including with network a
 
 Deactivation preserves all data. Deletion preserves settings and layouts by default. Optional deletion affects GlotFrame content only; GlotPress data is retained.
 
-[Complete FAQ by topic](docs/FAQ.md).
+[Complete FAQ by topic](https://github.com/deckerweb/glotframe/blob/main/docs/FAQ.md).
 
 ## Screenshots
 
-![GlotFrame — projects grid (EN)](docs/images/projects-grid-en.png)
+![Switch the root-project overview to grid view](docs/images/projects-grid-en.png)
 
-Example from a local demo installation.
+Switch the root-project overview to grid view.
 
-![GlotFrame — color presets (EN)](docs/images/color-presets-en.png)
+![Choose from eight coordinated color presets](docs/images/color-presets-en.png)
 
-Example from a local demo installation.
+Choose from eight coordinated color presets.
 
-![GlotFrame — statistics admin (EN)](docs/images/statistics-admin-en.png)
+![Operator statistics with filters and completion graphic](docs/images/statistics-admin-en.png)
 
-Example from a local demo installation.
+Operator statistics with filters and completion graphic.
 
 ## Changelog
 
@@ -141,8 +141,8 @@ Today, GlotFrame brings those original ideas together in a fully integrated Word
 
 GlotPress provides translation management. GlotFrame adds what is often still needed for a distinctive portal and a comfortable working day: design, orientation and many thoughtful details, all in one package.
 
-[Issues and questions](https://github.com/deckerweb/glotframe/issues) · [Discussions](https://github.com/deckerweb/glotframe/discussions) · [Private security reporting](SECURITY.md)
+[Issues and questions](https://github.com/deckerweb/glotframe/issues) · [Discussions](https://github.com/deckerweb/glotframe/discussions) · [Private security reporting](https://github.com/deckerweb/glotframe/blob/main/SECURITY.md)
 
 [Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)
 
-Copyright © 2017–2026 David Decker – DECKERWEB. Plugin license: GPL v2 or later. [Third-party notices](THIRD-PARTY.md).
+Copyright © 2017–2026 David Decker – DECKERWEB. Plugin license: GPL v2 or later. [Third-party notices](https://github.com/deckerweb/glotframe/blob/main/THIRD-PARTY.md).

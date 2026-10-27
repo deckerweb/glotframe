@@ -22,39 +22,38 @@ The language overview has aligned columns and its native language filter. Langua
 
 Choose **GlotPress interface language** in the settings: inherit WordPress, German informal or German formal. Bundled official GlotPress 4.1.0 catalogs cover PHP and JavaScript. The choice affects the GlotPress interface only, not WordPress administration or project translations. Unknown strings from extensions or other GlotPress versions retain native fallback behavior.
 
-![GlotFrame — projects list (EN)](images/projects-list-en.png)
+![Search root projects in list view](images/projects-list-en.png)
 
-Example from a local demo installation.
+Search root projects in list view.
 
-![GlotFrame — projects grid (EN)](images/projects-grid-en.png)
+![Switch the root-project overview to grid view](images/projects-grid-en.png)
 
-Example from a local demo installation.
+Switch the root-project overview to grid view.
 
-![GlotFrame — subprojects (EN)](images/subprojects-en.png)
+![Find and browse the current project’s subprojects](images/subprojects-en.png)
 
-Example from a local demo installation.
+Find and browse the current project’s subprojects.
 
-![GlotFrame — project select (EN)](images/project-select-en.png)
+![Search the parent-project selector while editing a project](images/project-select-en.png)
 
-Example from a local demo installation.
+Search the parent-project selector while editing a project.
 
-![GlotFrame — translations (EN)](images/translations-en.png)
+![Translation table with alternating rows and separate controls](images/translations-en.png)
 
-Example from a local demo installation.
+Translation table with alternating rows and separate controls.
 
-![GlotFrame — translation editor (EN)](images/translation-editor-en.png)
+![Open Details to work on a translation](images/translation-editor-en.png)
 
-Example from a local demo installation.
+Open Details to work on a translation.
 
-![GlotFrame — languages (EN)](images/languages-en.png)
+![Filter the aligned language overview](images/languages-en.png)
 
-Example from a local demo installation.
+Filter the aligned language overview.
 
-![GlotFrame — language projects (EN)](images/language-projects-en.png)
+![Compare translation sets for a selected language](images/language-projects-en.png)
 
-Example from a local demo installation.
+Compare translation sets for a selected language.
 
-![GlotFrame — glossary (EN)](images/glossary-en.png)
+![Read consistent terminology and create glossary entries](images/glossary-en.png)
 
-Example from a local demo installation.
-
+Read consistent terminology and create glossary entries.

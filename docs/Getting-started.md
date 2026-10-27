@@ -11,15 +11,18 @@
 
 GlotFrame can be installed and activated without GlotPress. You can prepare and save settings and layouts. Dependent frontend functions pause, an admin notice explains why, and stored data is preserved. They resume automatically when GlotPress 4.x and readable permalinks are available. There is no activation redirect out of the administration area.
 
-![GlotFrame — settings (EN)](images/settings-en.png)
+![Settings overview with three grouped sections](images/settings-en.png)
 
-Example from a local demo installation.
+Settings overview with three grouped sections.
 
-![GlotFrame — content assignments (EN)](images/content-assignments-en.png)
+![Assign published layouts and open them for editing](images/content-assignments-en.png)
 
-Example from a local demo installation.
+Assign published layouts and open them for editing.
 
-![GlotFrame — projects grid (EN)](images/projects-grid-en.png)
+![Switch the root-project overview to grid view](images/projects-grid-en.png)
 
-Example from a local demo installation.
+Switch the root-project overview to grid view.
 
+![Prepare GlotFrame settings while GlotPress is paused](images/paused-en.png)
+
+Prepare GlotFrame settings while GlotPress is paused.

@@ -22,11 +22,14 @@ GlotFrame verwendet lokale Assets und Systemschriften und ergänzt keine Telemet
 
 Deaktivieren erhält Daten. Löschen erhält Einstellungen und Layouts standardmäßig; temporäre Plugin-Caches werden bereinigt. Die optionale Löschfunktion entfernt GlotFrame-Einstellungen, Layouts und Revisionen dieser Website. Netzwerklöschung berücksichtigt die Auswahl jeder Website. GlotPress-Projekte und Übersetzungen werden nie entfernt. Das gemeinsame Library-Cleanup folgt seiner eigenen Letzt-Host-Regel und erhält Daten anderer installierter Hosts.
 
-![GlotFrame — data settings (DE)](images/data-settings-de.png)
+![Optionale Löschung und erhaltene Daten prüfen](images/data-settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Optionale Löschung und erhaltene Daten prüfen.
 
-![GlotFrame — site health (DE)](images/site-health-de.png)
+![Lokale GlotFrame-Diagnose im Website-Zustand](images/site-health-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Lokale GlotFrame-Diagnose im Website-Zustand.
 
+![GlotFrame-Aktionen in der nativen WordPress-Befehlspalette](images/command-palette-de.png)
+
+GlotFrame-Aktionen in der nativen WordPress-Befehlspalette.

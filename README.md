@@ -106,17 +106,17 @@ Deactivation preserves all data. Deletion preserves settings and layouts by defa
 
 ## Screenshots
 
-![GlotFrame — projects grid (EN)](docs/images/projects-grid-en.png)
+![Switch the root-project overview to grid view](docs/images/projects-grid-en.png)
 
-Example from a local demo installation.
+Switch the root-project overview to grid view.
 
-![GlotFrame — color presets (EN)](docs/images/color-presets-en.png)
+![Choose from eight coordinated color presets](docs/images/color-presets-en.png)
 
-Example from a local demo installation.
+Choose from eight coordinated color presets.
 
-![GlotFrame — statistics admin (EN)](docs/images/statistics-admin-en.png)
+![Operator statistics with filters and completion graphic](docs/images/statistics-admin-en.png)
 
-Example from a local demo installation.
+Operator statistics with filters and completion graphic.
 
 ## Changelog
 

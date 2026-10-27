@@ -24,43 +24,42 @@ Acht Farbvorlagen stehen bereit: Weiß, Nachteule · Anthrazit, Nachtblau, Sonni
 
 Erstelle und bearbeite GlotFrame-Layouts mit dem WordPress-Blockeditor. Mit Bricks, Elementor oder anderen Page Buildern erstellte Layout-Inhalte werden nicht unterstützt. Ein vorhandener Builder-Bearbeitungsbutton bedeutet nicht, dass dessen Inhalte in GlotFrame ausgegeben werden können. Das aktive Theme muss keinen Portal-Header oder -Footer bereitstellen.
 
-![GlotFrame — layouts (DE)](images/layouts-de.png)
+![Layoutübersicht mit Zuordnungen und Zeilenaktionen](images/layouts-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Layoutübersicht mit Zuordnungen und Zeilenaktionen.
 
-![GlotFrame — block editor (DE)](images/block-editor-de.png)
+![Header-Inhalte im WordPress-Blockeditor gestalten](images/block-editor-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Header-Inhalte im WordPress-Blockeditor gestalten.
 
-![GlotFrame — content assignments (DE)](images/content-assignments-de.png)
+![Veröffentlichte Layouts zuordnen und direkt bearbeiten](images/content-assignments-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Veröffentlichte Layouts zuordnen und direkt bearbeiten.
 
-![GlotFrame — layout settings (DE)](images/layout-settings-de.png)
+![Boxed-Breite, Editorbreite und Innenabstände einstellen](images/layout-settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Boxed-Breite, Editorbreite und Innenabstände einstellen.
 
-![GlotFrame — color presets (DE)](images/color-presets-de.png)
+![Aus acht abgestimmten Farbvorlagen wählen](images/color-presets-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Aus acht abgestimmten Farbvorlagen wählen.
 
-![GlotFrame — preset midnight (DE)](images/preset-midnight-de.png)
+![Beispiel für den Übersetzungsbereich in Nachtblau](images/preset-midnight-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in Nachtblau.
 
-![GlotFrame — preset harbor (DE)](images/preset-harbor-de.png)
+![Beispiel für den Übersetzungsbereich in Hafenblau](images/preset-harbor-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in Hafenblau.
 
-![GlotFrame — preset bordeaux (DE)](images/preset-bordeaux-de.png)
+![Beispiel für den Übersetzungsbereich in mattem Bordeaux](images/preset-bordeaux-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in mattem Bordeaux.
 
-![GlotFrame — preset sage (DE)](images/preset-sage-de.png)
+![Beispiel für den Übersetzungsbereich in sanftem Salbeigrün](images/preset-sage-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in sanftem Salbeigrün.
 
-![GlotFrame — mobile projects (DE)](images/mobile-projects-de.png)
+![Projektnavigation auf einem kleinen Bildschirm](images/mobile-projects-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
-
+Projektnavigation auf einem kleinen Bildschirm.

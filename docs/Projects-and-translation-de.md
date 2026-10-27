@@ -22,39 +22,38 @@ Die Sprachübersicht hat ausgerichtete Spalten und den nativen Sprachfilter. Spr
 
 Wähle unter **GlotPress-Oberflächensprache**: WordPress-Sprache übernehmen, Deutsch mit Du oder Deutsch mit Sie. Mitgelieferte offizielle GlotPress-4.1.0-Kataloge decken PHP und JavaScript ab. Die Auswahl betrifft nur GlotPress, weder den WordPress-Admin noch Projektübersetzungen. Unbekannte Texte von Erweiterungen oder anderen GlotPress-Versionen verwenden den nativen Fallback.
 
-![GlotFrame — projects list (DE)](images/projects-list-de.png)
+![Stammprojekte in der Listenansicht durchsuchen](images/projects-list-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Stammprojekte in der Listenansicht durchsuchen.
 
-![GlotFrame — projects grid (DE)](images/projects-grid-de.png)
+![Die Stammprojektübersicht auf Raster umschalten](images/projects-grid-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Die Stammprojektübersicht auf Raster umschalten.
 
-![GlotFrame — subprojects (DE)](images/subprojects-de.png)
+![Unterprojekte des aktuellen Projekts finden und öffnen](images/subprojects-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Unterprojekte des aktuellen Projekts finden und öffnen.
 
-![GlotFrame — project select (DE)](images/project-select-de.png)
+![Bei der Projektbearbeitung die Elternprojektauswahl durchsuchen](images/project-select-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Bei der Projektbearbeitung die Elternprojektauswahl durchsuchen.
 
-![GlotFrame — translations (DE)](images/translations-de.png)
+![Übersetzungstabelle mit wechselnden Zeilen und getrennten Bedienelementen](images/translations-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Übersetzungstabelle mit wechselnden Zeilen und getrennten Bedienelementen.
 
-![GlotFrame — translation editor (DE)](images/translation-editor-de.png)
+![Details öffnen und eine Übersetzung bearbeiten](images/translation-editor-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Details öffnen und eine Übersetzung bearbeiten.
 
-![GlotFrame — languages (DE)](images/languages-de.png)
+![Die ausgerichtete Sprachübersicht filtern](images/languages-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Die ausgerichtete Sprachübersicht filtern.
 
-![GlotFrame — language projects (DE)](images/language-projects-de.png)
+![Übersetzungssätze einer gewählten Sprache vergleichen](images/language-projects-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Übersetzungssätze einer gewählten Sprache vergleichen.
 
-![GlotFrame — glossary (DE)](images/glossary-de.png)
+![Einheitliche Begriffe nachschlagen und Glossareinträge erstellen](images/glossary-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
-
+Einheitliche Begriffe nachschlagen und Glossareinträge erstellen.

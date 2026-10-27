@@ -32,7 +32,7 @@ Ja. Jede Website verwaltet eigene Einstellungen und Layouts, auch bei Netzwerkak
 
 Deaktivieren erhält alle Daten. Löschen erhält Einstellungen und Layouts standardmäßig. Die optionale Löschfunktion betrifft nur GlotFrame-Inhalte; GlotPress-Daten bleiben erhalten.
 
-## Weitere Antworten nach Themen
+## Layouts und Gestaltung
 
 ### Wo finde ich Patterns und Blöcke?
 
@@ -50,6 +50,8 @@ Ja. Ein Layout kann mehrere Bereiche belegen. Als Entwurf duplizieren erzeugt ei
 
 Wähle eine Farbvorlage und passe ihre Werte an. Der äußere Hintergrund ist bei Boxed sichtbar; Bilder stammen aus der Mediathek. [Mehr dazu](Layouts-and-design-de.md).
 
+## Portal und Navigation
+
 ### Warum ändern sich alte Links nach einem Slug-Wechsel nicht?
 
 GlotFrame legt keine automatische Weiterleitung vom alten individuellen Pfad an. Aktualisiere Menüs und Lesezeichen. [Mehr dazu](Portal-and-toolbar-de.md).
@@ -57,6 +59,8 @@ GlotFrame legt keine automatische Weiterleitung vom alten individuellen Pfad an.
 ### Wie bestimme ich die Toolbar-Position?
 
 Wähle in Admin & Toolbar die Position und bei vor/nach einen vorhandenen Bezugseintrag. Fehlt das Ziel, gilt die Standardposition. [Mehr dazu](Portal-and-toolbar-de.md).
+
+## Sprache und Statistik
 
 ### Wie wähle ich Deutsch mit Du oder Sie?
 
@@ -70,6 +74,8 @@ Nein. Gezählt werden noch vorhandene, dir zugeordnete Datensätze. Importe und 
 
 Vorschläge und Warnungen können andere Werte überlappen. Sie sind keine zusätzlichen Teile der Gesamtquote. [Mehr dazu](Statistics-de.md).
 
+## Verwaltung und Datenschutz
+
 ### Welche Daten werden nach außen übertragen?
 
 Der Updater fragt GitHub ab. Der zusätzliche Library-Onlinekatalog ist freiwillig und zunächst aus. GlotFrame ergänzt keine Telemetrie. [Mehr dazu](Administration-and-data-de.md).
@@ -78,7 +84,8 @@ Der Updater fragt GitHub ab. Der zusätzliche Library-Onlinekatalog ist freiwill
 
 Befehle erscheinen nur für zuständige Website-Administratoren und wo WordPress die native Palette bereitstellt; bei älteren Versionen teils nur im Blockeditor. [Mehr dazu](Administration-and-data-de.md).
 
+## Hilfe und Sicherheit
+
 ### Wie melde ich einen Fehler oder eine Sicherheitslücke?
 
 Normale Fehler gehören in Issues, Fragen in Discussions. Sicherheitsdetails bitte ausschließlich vertraulich über GitHubs private Meldung übermitteln. [Mehr dazu](Help-and-security-de.md).
-

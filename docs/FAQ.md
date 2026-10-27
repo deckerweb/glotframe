@@ -32,7 +32,7 @@ Yes. Each website manages its own settings and layouts, including with network a
 
 Deactivation preserves all data. Deletion preserves settings and layouts by default. Optional deletion affects GlotFrame content only; GlotPress data is retained.
 
-## More answers by topic
+## Layouts and appearance
 
 ### Where can I find patterns and blocks?
 
@@ -50,6 +50,8 @@ Yes. One layout can serve multiple regions. Duplicate as draft creates an indepe
 
 Choose a preset and adjust its values. The outer background is visible in boxed mode; images come from the Media Library. [Details](Layouts-and-design.md).
 
+## Portal and navigation
+
 ### Why do old links stop working after changing the path?
 
 GlotFrame does not create a redirect from an old custom path. Update menus and bookmarks. [Details](Portal-and-toolbar.md).
@@ -57,6 +59,8 @@ GlotFrame does not create a redirect from an old custom path. Update menus and b
 ### How do I choose the toolbar position?
 
 Choose its position in Admin & Toolbar and select a present reference for before/after. A missing reference uses the standard position. [Details](Portal-and-toolbar.md).
+
+## Language and statistics
 
 ### How do I choose German informal or formal?
 
@@ -70,6 +74,8 @@ No. Counts cover retained records attributed to you. Imports and deletions limit
 
 Proposals and warnings can overlap other figures. They are not additional portions of overall completion. [Details](Statistics.md).
 
+## Administration and privacy
+
 ### Which data is sent to external services?
 
 The updater contacts GitHub. The additional Library online catalog is optional and initially off. GlotFrame adds no telemetry. [Details](Administration-and-data.md).
@@ -78,7 +84,8 @@ The updater contacts GitHub. The additional Library online catalog is optional a
 
 Commands appear only for authorized website administrators where WordPress provides its native palette; older versions may limit this to the block editor. [Details](Administration-and-data.md).
 
+## Help and security
+
 ### How do I report a bug or security issue?
 
 Use Issues for bugs and Discussions for questions. Submit security details only through GitHub’s private reporting. [Details](Help-and-security.md).
-

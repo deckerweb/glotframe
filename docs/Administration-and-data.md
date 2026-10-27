@@ -22,11 +22,14 @@ GlotFrame uses local assets and system fonts and adds no telemetry. Its updater 
 
 Deactivation preserves data. Deletion preserves settings and layouts by default; temporary plugin caches are cleaned. The optional delete setting removes this website’s GlotFrame settings, layouts and revisions. Network deletion evaluates each website’s choice. It never removes GlotPress projects or translations. Shared Library cleanup has its own last-host policy and retains data needed by other installed hosts.
 
-![GlotFrame — data settings (EN)](images/data-settings-en.png)
+![Review optional deletion and retained data](images/data-settings-en.png)
 
-Example from a local demo installation.
+Review optional deletion and retained data.
 
-![GlotFrame — site health (EN)](images/site-health-en.png)
+![Local GlotFrame diagnostics in Site Health](images/site-health-en.png)
 
-Example from a local demo installation.
+Local GlotFrame diagnostics in Site Health.
 
+![GlotFrame actions in the native WordPress Command Palette](images/command-palette-en.png)
+
+GlotFrame actions in the native WordPress Command Palette.

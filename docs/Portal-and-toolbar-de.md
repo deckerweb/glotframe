@@ -14,7 +14,6 @@ Der GlotPress-Eintrag ist standardmäßig für angemeldete Benutzer mit sichtbar
 
 Wähle Standardposition, Anfang oder Ende links, rechte Gruppe oder vor/nach einem vorhandenen Eintrag. Wähle ein tatsächlich vorhandenes Bezugsziel. Fehlt es auf einer anderen Seite, nutzt GlotFrame die Standardposition. Position und Name sind Website-Einstellungen, keine persönlichen Präferenzen. Das letzte Admin-Untermenü öffnet GlotPress in einem neuen Tab.
 
-![GlotFrame — toolbar settings (DE)](images/toolbar-settings-de.png)
+![Toolbar-Name, Icons, Projekte, Tiefe und Position festlegen](images/toolbar-settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
-
+Toolbar-Name, Icons, Projekte, Tiefe und Position festlegen.

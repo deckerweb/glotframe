@@ -12,11 +12,10 @@ Personal contributions count retained records attributed to the signed-in user. 
 
 No history table, background tracking or analytics service is created. The calculation time is shown. The Project group statistics block places a compact summary of the selected group in a layout.
 
-![GlotFrame — statistics admin (EN)](images/statistics-admin-en.png)
+![Operator statistics with filters and completion graphic](images/statistics-admin-en.png)
 
-Example from a local demo installation.
+Operator statistics with filters and completion graphic.
 
-![GlotFrame — statistics frontend (EN)](images/statistics-frontend-en.png)
+![Signed-in translator statistics and project-group filters](images/statistics-frontend-en.png)
 
-Example from a local demo installation.
-
+Signed-in translator statistics and project-group filters.

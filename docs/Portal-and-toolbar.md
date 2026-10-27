@@ -14,7 +14,6 @@ The GlotPress entry is enabled by default for signed-in users with a visible Wor
 
 Choose the standard position, first or last on the left, the right group, or before/after an existing entry. Select a reference that is actually present. If that reference is missing on another page, GlotFrame uses its standard placement. Position and label are website settings, not personal preferences. The final admin submenu opens GlotPress in a new tab.
 
-![GlotFrame — toolbar settings (EN)](images/toolbar-settings-en.png)
+![Configure toolbar identity, projects, depth and placement](images/toolbar-settings-en.png)
 
-Example from a local demo installation.
-
+Configure toolbar identity, projects, depth and placement.

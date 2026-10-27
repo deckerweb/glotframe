@@ -106,17 +106,17 @@ Deaktivieren erhält alle Daten. Löschen erhält Einstellungen und Layouts stan
 
 ## Screenshots
 
-![GlotFrame — projects grid (DE)](docs/images/projects-grid-de.png)
+![Die Stammprojektübersicht auf Raster umschalten](docs/images/projects-grid-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Die Stammprojektübersicht auf Raster umschalten.
 
-![GlotFrame — color presets (DE)](docs/images/color-presets-de.png)
+![Aus acht abgestimmten Farbvorlagen wählen](docs/images/color-presets-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Aus acht abgestimmten Farbvorlagen wählen.
 
-![GlotFrame — statistics admin (DE)](docs/images/statistics-admin-de.png)
+![Betreiberstatistik mit Filtern und Fortschrittsgrafik](docs/images/statistics-admin-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Betreiberstatistik mit Filtern und Fortschrittsgrafik.
 
 ## Änderungsverlauf
 

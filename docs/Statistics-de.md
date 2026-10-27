@@ -12,11 +12,10 @@ Persönliche Beiträge zählen noch vorhandene, dem angemeldeten Benutzer zugeor
 
 Es entstehen keine Verlaufstabelle, Hintergrundverfolgung oder Analyseverbindung. Der Berechnungszeitpunkt wird angezeigt. Der Block Projektgruppenstatistik bringt eine kompakte Zusammenfassung der gewählten Gruppe in ein Layout.
 
-![GlotFrame — statistics admin (DE)](images/statistics-admin-de.png)
+![Betreiberstatistik mit Filtern und Fortschrittsgrafik](images/statistics-admin-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Betreiberstatistik mit Filtern und Fortschrittsgrafik.
 
-![GlotFrame — statistics frontend (DE)](images/statistics-frontend-de.png)
+![Statistik für angemeldete Übersetzer mit Projektgruppenfiltern](images/statistics-frontend-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
-
+Statistik für angemeldete Übersetzer mit Projektgruppenfiltern.

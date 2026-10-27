@@ -19,17 +19,21 @@ A deckerweb tool for anyone who wants to shape GlotPress more easily and use it 
 
 GlotFrame can be installed and activated without GlotPress. You can prepare and save settings and layouts. Dependent frontend functions pause, an admin notice explains why, and stored data is preserved. They resume automatically when GlotPress 4.x and readable permalinks are available. There is no activation redirect out of the administration area.
 
-![GlotFrame — settings (EN)](images/settings-en.png)
+![Settings overview with three grouped sections](images/settings-en.png)
 
-Example from a local demo installation.
+Settings overview with three grouped sections.
 
-![GlotFrame — content assignments (EN)](images/content-assignments-en.png)
+![Assign published layouts and open them for editing](images/content-assignments-en.png)
 
-Example from a local demo installation.
+Assign published layouts and open them for editing.
 
-![GlotFrame — projects grid (EN)](images/projects-grid-en.png)
+![Switch the root-project overview to grid view](images/projects-grid-en.png)
 
-Example from a local demo installation.
+Switch the root-project overview to grid view.
+
+![Prepare GlotFrame settings while GlotPress is paused](images/paused-en.png)
+
+Prepare GlotFrame settings while GlotPress is paused.
 
 ## Layouts and design
 
@@ -55,45 +59,45 @@ Eight presets are available: White, Night owl · Charcoal, Midnight blue, Sunlit
 
 Create and edit GlotFrame layouts with the WordPress block editor. Layout content created with Bricks, Elementor or other page builders is not supported. A builder edit button does not imply that its content can be displayed by GlotFrame. The active theme is not required to provide the portal header or footer.
 
-![GlotFrame — layouts (EN)](images/layouts-en.png)
+![Layout overview showing usage and row actions](images/layouts-en.png)
 
-Example from a local demo installation.
+Layout overview showing usage and row actions.
 
-![GlotFrame — block editor (EN)](images/block-editor-en.png)
+![Create header content in the WordPress block editor](images/block-editor-en.png)
 
-Example from a local demo installation.
+Create header content in the WordPress block editor.
 
-![GlotFrame — content assignments (EN)](images/content-assignments-en.png)
+![Assign published layouts and open them for editing](images/content-assignments-en.png)
 
-Example from a local demo installation.
+Assign published layouts and open them for editing.
 
-![GlotFrame — layout settings (EN)](images/layout-settings-en.png)
+![Set boxed width, editor width and inner spacing](images/layout-settings-en.png)
 
-Example from a local demo installation.
+Set boxed width, editor width and inner spacing.
 
-![GlotFrame — color presets (EN)](images/color-presets-en.png)
+![Choose from eight coordinated color presets](images/color-presets-en.png)
 
-Example from a local demo installation.
+Choose from eight coordinated color presets.
 
-![GlotFrame — preset midnight (EN)](images/preset-midnight-en.png)
+![Midnight blue workspace example](images/preset-midnight-en.png)
 
-Example from a local demo installation.
+Midnight blue workspace example.
 
-![GlotFrame — preset harbor (EN)](images/preset-harbor-en.png)
+![Harbor blue workspace example](images/preset-harbor-en.png)
 
-Example from a local demo installation.
+Harbor blue workspace example.
 
-![GlotFrame — preset bordeaux (EN)](images/preset-bordeaux-en.png)
+![Muted Bordeaux workspace example](images/preset-bordeaux-en.png)
 
-Example from a local demo installation.
+Muted Bordeaux workspace example.
 
-![GlotFrame — preset sage (EN)](images/preset-sage-en.png)
+![Soft sage workspace example](images/preset-sage-en.png)
 
-Example from a local demo installation.
+Soft sage workspace example.
 
-![GlotFrame — mobile projects (EN)](images/mobile-projects-en.png)
+![Project navigation on a small screen](images/mobile-projects-en.png)
 
-Example from a local demo installation.
+Project navigation on a small screen.
 
 ## Projects and translation
 
@@ -117,41 +121,41 @@ The language overview has aligned columns and its native language filter. Langua
 
 Choose **GlotPress interface language** in the settings: inherit WordPress, German informal or German formal. Bundled official GlotPress 4.1.0 catalogs cover PHP and JavaScript. The choice affects the GlotPress interface only, not WordPress administration or project translations. Unknown strings from extensions or other GlotPress versions retain native fallback behavior.
 
-![GlotFrame — projects list (EN)](images/projects-list-en.png)
+![Search root projects in list view](images/projects-list-en.png)
 
-Example from a local demo installation.
+Search root projects in list view.
 
-![GlotFrame — projects grid (EN)](images/projects-grid-en.png)
+![Switch the root-project overview to grid view](images/projects-grid-en.png)
 
-Example from a local demo installation.
+Switch the root-project overview to grid view.
 
-![GlotFrame — subprojects (EN)](images/subprojects-en.png)
+![Find and browse the current project’s subprojects](images/subprojects-en.png)
 
-Example from a local demo installation.
+Find and browse the current project’s subprojects.
 
-![GlotFrame — project select (EN)](images/project-select-en.png)
+![Search the parent-project selector while editing a project](images/project-select-en.png)
 
-Example from a local demo installation.
+Search the parent-project selector while editing a project.
 
-![GlotFrame — translations (EN)](images/translations-en.png)
+![Translation table with alternating rows and separate controls](images/translations-en.png)
 
-Example from a local demo installation.
+Translation table with alternating rows and separate controls.
 
-![GlotFrame — translation editor (EN)](images/translation-editor-en.png)
+![Open Details to work on a translation](images/translation-editor-en.png)
 
-Example from a local demo installation.
+Open Details to work on a translation.
 
-![GlotFrame — languages (EN)](images/languages-en.png)
+![Filter the aligned language overview](images/languages-en.png)
 
-Example from a local demo installation.
+Filter the aligned language overview.
 
-![GlotFrame — language projects (EN)](images/language-projects-en.png)
+![Compare translation sets for a selected language](images/language-projects-en.png)
 
-Example from a local demo installation.
+Compare translation sets for a selected language.
 
-![GlotFrame — glossary (EN)](images/glossary-en.png)
+![Read consistent terminology and create glossary entries](images/glossary-en.png)
 
-Example from a local demo installation.
+Read consistent terminology and create glossary entries.
 
 ## Portal and toolbar
 
@@ -167,9 +171,9 @@ The GlotPress entry is enabled by default for signed-in users with a visible Wor
 
 Choose the standard position, first or last on the left, the right group, or before/after an existing entry. Select a reference that is actually present. If that reference is missing on another page, GlotFrame uses its standard placement. Position and label are website settings, not personal preferences. The final admin submenu opens GlotPress in a new tab.
 
-![GlotFrame — toolbar settings (EN)](images/toolbar-settings-en.png)
+![Configure toolbar identity, projects, depth and placement](images/toolbar-settings-en.png)
 
-Example from a local demo installation.
+Configure toolbar identity, projects, depth and placement.
 
 ## Statistics
 
@@ -183,13 +187,13 @@ Personal contributions count retained records attributed to the signed-in user. 
 
 No history table, background tracking or analytics service is created. The calculation time is shown. The Project group statistics block places a compact summary of the selected group in a layout.
 
-![GlotFrame — statistics admin (EN)](images/statistics-admin-en.png)
+![Operator statistics with filters and completion graphic](images/statistics-admin-en.png)
 
-Example from a local demo installation.
+Operator statistics with filters and completion graphic.
 
-![GlotFrame — statistics frontend (EN)](images/statistics-frontend-en.png)
+![Signed-in translator statistics and project-group filters](images/statistics-frontend-en.png)
 
-Example from a local demo installation.
+Signed-in translator statistics and project-group filters.
 
 ## Administration and data
 
@@ -213,11 +217,14 @@ GlotFrame uses local assets and system fonts and adds no telemetry. Its updater 
 
 Deactivation preserves data. Deletion preserves settings and layouts by default; temporary plugin caches are cleaned. The optional delete setting removes this website’s GlotFrame settings, layouts and revisions. Network deletion evaluates each website’s choice. It never removes GlotPress projects or translations. Shared Library cleanup has its own last-host policy and retains data needed by other installed hosts.
 
-![GlotFrame — data settings (EN)](images/data-settings-en.png)
+![Review optional deletion and retained data](images/data-settings-en.png)
 
-Example from a local demo installation.
+Review optional deletion and retained data.
 
-![GlotFrame — site health (EN)](images/site-health-en.png)
+![Local GlotFrame diagnostics in Site Health](images/site-health-en.png)
 
-Example from a local demo installation.
+Local GlotFrame diagnostics in Site Health.
 
+![GlotFrame actions in the native WordPress Command Palette](images/command-palette-en.png)
+
+GlotFrame actions in the native WordPress Command Palette.

@@ -63,4 +63,3 @@ Example from a local demo installation.
 ![GlotFrame — mobile projects (EN)](images/mobile-projects-en.png)
 
 Example from a local demo installation.
-

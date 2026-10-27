@@ -182,5 +182,111 @@
         }
       }
     }
+  },
+  "screenshot_captions": {
+    "settings": [
+      "Settings overview with three grouped sections",
+      "Einstellungsübersicht mit drei klaren Bereichen"
+    ],
+    "layout-settings": [
+      "Set boxed width, editor width and inner spacing",
+      "Boxed-Breite, Editorbreite und Innenabstände einstellen"
+    ],
+    "content-assignments": [
+      "Assign published layouts and open them for editing",
+      "Veröffentlichte Layouts zuordnen und direkt bearbeiten"
+    ],
+    "color-presets": [
+      "Choose from eight coordinated color presets",
+      "Aus acht abgestimmten Farbvorlagen wählen"
+    ],
+    "layouts": [
+      "Layout overview showing usage and row actions",
+      "Layoutübersicht mit Zuordnungen und Zeilenaktionen"
+    ],
+    "block-editor": [
+      "Create header content in the WordPress block editor",
+      "Header-Inhalte im WordPress-Blockeditor gestalten"
+    ],
+    "projects-list": [
+      "Search root projects in list view",
+      "Stammprojekte in der Listenansicht durchsuchen"
+    ],
+    "projects-grid": [
+      "Switch the root-project overview to grid view",
+      "Die Stammprojektübersicht auf Raster umschalten"
+    ],
+    "subprojects": [
+      "Find and browse the current project’s subprojects",
+      "Unterprojekte des aktuellen Projekts finden und öffnen"
+    ],
+    "project-select": [
+      "Search the parent-project selector while editing a project",
+      "Bei der Projektbearbeitung die Elternprojektauswahl durchsuchen"
+    ],
+    "translations": [
+      "Translation table with alternating rows and separate controls",
+      "Übersetzungstabelle mit wechselnden Zeilen und getrennten Bedienelementen"
+    ],
+    "translation-editor": [
+      "Open Details to work on a translation",
+      "Details öffnen und eine Übersetzung bearbeiten"
+    ],
+    "languages": [
+      "Filter the aligned language overview",
+      "Die ausgerichtete Sprachübersicht filtern"
+    ],
+    "language-projects": [
+      "Compare translation sets for a selected language",
+      "Übersetzungssätze einer gewählten Sprache vergleichen"
+    ],
+    "glossary": [
+      "Read consistent terminology and create glossary entries",
+      "Einheitliche Begriffe nachschlagen und Glossareinträge erstellen"
+    ],
+    "statistics-admin": [
+      "Operator statistics with filters and completion graphic",
+      "Betreiberstatistik mit Filtern und Fortschrittsgrafik"
+    ],
+    "statistics-frontend": [
+      "Signed-in translator statistics and project-group filters",
+      "Statistik für angemeldete Übersetzer mit Projektgruppenfiltern"
+    ],
+    "site-health": [
+      "Local GlotFrame diagnostics in Site Health",
+      "Lokale GlotFrame-Diagnose im Website-Zustand"
+    ],
+    "language-settings": [
+      "Select the GlotPress interface language",
+      "Die GlotPress-Oberflächensprache auswählen"
+    ],
+    "data-settings": [
+      "Review optional deletion and retained data",
+      "Optionale Löschung und erhaltene Daten prüfen"
+    ],
+    "toolbar-settings": [
+      "Configure toolbar identity, projects, depth and placement",
+      "Toolbar-Name, Icons, Projekte, Tiefe und Position festlegen"
+    ],
+    "mobile-projects": [
+      "Project navigation on a small screen",
+      "Projektnavigation auf einem kleinen Bildschirm"
+    ],
+    "preset-midnight": [
+      "Midnight blue workspace example",
+      "Beispiel für den Übersetzungsbereich in Nachtblau"
+    ],
+    "preset-harbor": [
+      "Harbor blue workspace example",
+      "Beispiel für den Übersetzungsbereich in Hafenblau"
+    ],
+    "preset-bordeaux": [
+      "Muted Bordeaux workspace example",
+      "Beispiel für den Übersetzungsbereich in mattem Bordeaux"
+    ],
+    "preset-sage": [
+      "Soft sage workspace example",
+      "Beispiel für den Übersetzungsbereich in sanftem Salbeigrün"
+    ]
   }
 }

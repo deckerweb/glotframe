@@ -19,17 +19,21 @@ Ein deckerweb Tool für alle, die GlotPress einfacher gestalten und komfortabler
 
 GlotFrame lässt sich ohne GlotPress installieren und aktivieren. Einstellungen und Layouts kannst du vorbereiten und speichern. Abhängige Frontend-Funktionen pausieren mit einem verständlichen Admin-Hinweis; vorhandene Daten bleiben erhalten. Sobald GlotPress 4.x und lesbare Permalinks verfügbar sind, funktionieren sie automatisch wieder. Es gibt keine Aktivierungsweiterleitung aus dem Admin.
 
-![GlotFrame — settings (DE)](images/settings-de.png)
+![Einstellungsübersicht mit drei klaren Bereichen](images/settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Einstellungsübersicht mit drei klaren Bereichen.
 
-![GlotFrame — content assignments (DE)](images/content-assignments-de.png)
+![Veröffentlichte Layouts zuordnen und direkt bearbeiten](images/content-assignments-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Veröffentlichte Layouts zuordnen und direkt bearbeiten.
 
-![GlotFrame — projects grid (DE)](images/projects-grid-de.png)
+![Die Stammprojektübersicht auf Raster umschalten](images/projects-grid-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Die Stammprojektübersicht auf Raster umschalten.
+
+![GlotFrame-Einstellungen vorbereiten, während GlotPress pausiert](images/paused-de.png)
+
+GlotFrame-Einstellungen vorbereiten, während GlotPress pausiert.
 
 ## Layouts und Design
 
@@ -55,45 +59,45 @@ Acht Farbvorlagen stehen bereit: Weiß, Nachteule · Anthrazit, Nachtblau, Sonni
 
 Erstelle und bearbeite GlotFrame-Layouts mit dem WordPress-Blockeditor. Mit Bricks, Elementor oder anderen Page Buildern erstellte Layout-Inhalte werden nicht unterstützt. Ein vorhandener Builder-Bearbeitungsbutton bedeutet nicht, dass dessen Inhalte in GlotFrame ausgegeben werden können. Das aktive Theme muss keinen Portal-Header oder -Footer bereitstellen.
 
-![GlotFrame — layouts (DE)](images/layouts-de.png)
+![Layoutübersicht mit Zuordnungen und Zeilenaktionen](images/layouts-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Layoutübersicht mit Zuordnungen und Zeilenaktionen.
 
-![GlotFrame — block editor (DE)](images/block-editor-de.png)
+![Header-Inhalte im WordPress-Blockeditor gestalten](images/block-editor-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Header-Inhalte im WordPress-Blockeditor gestalten.
 
-![GlotFrame — content assignments (DE)](images/content-assignments-de.png)
+![Veröffentlichte Layouts zuordnen und direkt bearbeiten](images/content-assignments-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Veröffentlichte Layouts zuordnen und direkt bearbeiten.
 
-![GlotFrame — layout settings (DE)](images/layout-settings-de.png)
+![Boxed-Breite, Editorbreite und Innenabstände einstellen](images/layout-settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Boxed-Breite, Editorbreite und Innenabstände einstellen.
 
-![GlotFrame — color presets (DE)](images/color-presets-de.png)
+![Aus acht abgestimmten Farbvorlagen wählen](images/color-presets-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Aus acht abgestimmten Farbvorlagen wählen.
 
-![GlotFrame — preset midnight (DE)](images/preset-midnight-de.png)
+![Beispiel für den Übersetzungsbereich in Nachtblau](images/preset-midnight-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in Nachtblau.
 
-![GlotFrame — preset harbor (DE)](images/preset-harbor-de.png)
+![Beispiel für den Übersetzungsbereich in Hafenblau](images/preset-harbor-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in Hafenblau.
 
-![GlotFrame — preset bordeaux (DE)](images/preset-bordeaux-de.png)
+![Beispiel für den Übersetzungsbereich in mattem Bordeaux](images/preset-bordeaux-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in mattem Bordeaux.
 
-![GlotFrame — preset sage (DE)](images/preset-sage-de.png)
+![Beispiel für den Übersetzungsbereich in sanftem Salbeigrün](images/preset-sage-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Beispiel für den Übersetzungsbereich in sanftem Salbeigrün.
 
-![GlotFrame — mobile projects (DE)](images/mobile-projects-de.png)
+![Projektnavigation auf einem kleinen Bildschirm](images/mobile-projects-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Projektnavigation auf einem kleinen Bildschirm.
 
 ## Projekte und Übersetzung
 
@@ -117,41 +121,41 @@ Die Sprachübersicht hat ausgerichtete Spalten und den nativen Sprachfilter. Spr
 
 Wähle unter **GlotPress-Oberflächensprache**: WordPress-Sprache übernehmen, Deutsch mit Du oder Deutsch mit Sie. Mitgelieferte offizielle GlotPress-4.1.0-Kataloge decken PHP und JavaScript ab. Die Auswahl betrifft nur GlotPress, weder den WordPress-Admin noch Projektübersetzungen. Unbekannte Texte von Erweiterungen oder anderen GlotPress-Versionen verwenden den nativen Fallback.
 
-![GlotFrame — projects list (DE)](images/projects-list-de.png)
+![Stammprojekte in der Listenansicht durchsuchen](images/projects-list-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Stammprojekte in der Listenansicht durchsuchen.
 
-![GlotFrame — projects grid (DE)](images/projects-grid-de.png)
+![Die Stammprojektübersicht auf Raster umschalten](images/projects-grid-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Die Stammprojektübersicht auf Raster umschalten.
 
-![GlotFrame — subprojects (DE)](images/subprojects-de.png)
+![Unterprojekte des aktuellen Projekts finden und öffnen](images/subprojects-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Unterprojekte des aktuellen Projekts finden und öffnen.
 
-![GlotFrame — project select (DE)](images/project-select-de.png)
+![Bei der Projektbearbeitung die Elternprojektauswahl durchsuchen](images/project-select-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Bei der Projektbearbeitung die Elternprojektauswahl durchsuchen.
 
-![GlotFrame — translations (DE)](images/translations-de.png)
+![Übersetzungstabelle mit wechselnden Zeilen und getrennten Bedienelementen](images/translations-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Übersetzungstabelle mit wechselnden Zeilen und getrennten Bedienelementen.
 
-![GlotFrame — translation editor (DE)](images/translation-editor-de.png)
+![Details öffnen und eine Übersetzung bearbeiten](images/translation-editor-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Details öffnen und eine Übersetzung bearbeiten.
 
-![GlotFrame — languages (DE)](images/languages-de.png)
+![Die ausgerichtete Sprachübersicht filtern](images/languages-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Die ausgerichtete Sprachübersicht filtern.
 
-![GlotFrame — language projects (DE)](images/language-projects-de.png)
+![Übersetzungssätze einer gewählten Sprache vergleichen](images/language-projects-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Übersetzungssätze einer gewählten Sprache vergleichen.
 
-![GlotFrame — glossary (DE)](images/glossary-de.png)
+![Einheitliche Begriffe nachschlagen und Glossareinträge erstellen](images/glossary-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Einheitliche Begriffe nachschlagen und Glossareinträge erstellen.
 
 ## Portal und Toolbar
 
@@ -167,9 +171,9 @@ Der GlotPress-Eintrag ist standardmäßig für angemeldete Benutzer mit sichtbar
 
 Wähle Standardposition, Anfang oder Ende links, rechte Gruppe oder vor/nach einem vorhandenen Eintrag. Wähle ein tatsächlich vorhandenes Bezugsziel. Fehlt es auf einer anderen Seite, nutzt GlotFrame die Standardposition. Position und Name sind Website-Einstellungen, keine persönlichen Präferenzen. Das letzte Admin-Untermenü öffnet GlotPress in einem neuen Tab.
 
-![GlotFrame — toolbar settings (DE)](images/toolbar-settings-de.png)
+![Toolbar-Name, Icons, Projekte, Tiefe und Position festlegen](images/toolbar-settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Toolbar-Name, Icons, Projekte, Tiefe und Position festlegen.
 
 ## Statistik
 
@@ -183,13 +187,13 @@ Persönliche Beiträge zählen noch vorhandene, dem angemeldeten Benutzer zugeor
 
 Es entstehen keine Verlaufstabelle, Hintergrundverfolgung oder Analyseverbindung. Der Berechnungszeitpunkt wird angezeigt. Der Block Projektgruppenstatistik bringt eine kompakte Zusammenfassung der gewählten Gruppe in ein Layout.
 
-![GlotFrame — statistics admin (DE)](images/statistics-admin-de.png)
+![Betreiberstatistik mit Filtern und Fortschrittsgrafik](images/statistics-admin-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Betreiberstatistik mit Filtern und Fortschrittsgrafik.
 
-![GlotFrame — statistics frontend (DE)](images/statistics-frontend-de.png)
+![Statistik für angemeldete Übersetzer mit Projektgruppenfiltern](images/statistics-frontend-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Statistik für angemeldete Übersetzer mit Projektgruppenfiltern.
 
 ## Verwaltung und Daten
 
@@ -213,11 +217,14 @@ GlotFrame verwendet lokale Assets und Systemschriften und ergänzt keine Telemet
 
 Deaktivieren erhält Daten. Löschen erhält Einstellungen und Layouts standardmäßig; temporäre Plugin-Caches werden bereinigt. Die optionale Löschfunktion entfernt GlotFrame-Einstellungen, Layouts und Revisionen dieser Website. Netzwerklöschung berücksichtigt die Auswahl jeder Website. GlotPress-Projekte und Übersetzungen werden nie entfernt. Das gemeinsame Library-Cleanup folgt seiner eigenen Letzt-Host-Regel und erhält Daten anderer installierter Hosts.
 
-![GlotFrame — data settings (DE)](images/data-settings-de.png)
+![Optionale Löschung und erhaltene Daten prüfen](images/data-settings-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Optionale Löschung und erhaltene Daten prüfen.
 
-![GlotFrame — site health (DE)](images/site-health-de.png)
+![Lokale GlotFrame-Diagnose im Website-Zustand](images/site-health-de.png)
 
-Beispiel aus einer lokalen Demo-Installation.
+Lokale GlotFrame-Diagnose im Website-Zustand.
 
+![GlotFrame-Aktionen in der nativen WordPress-Befehlspalette](images/command-palette-de.png)
+
+GlotFrame-Aktionen in der nativen WordPress-Befehlspalette.
